@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Header/cococlientsdk/coco_client_api.h</key>
 		<data>
-		wq6r6AD6mtoz3Xwt4bJAxBLvoaA=
+		E8fOM1u8Lep/SC6dW56otLoIi58=
 		</data>
 		<key>Resources/Header/cocostandard/coco_std_api.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		XTKKu2Yb4WPtSggbs4H2/Zl+dHw=
+		2EOCdrY6b8/mcLvvU/bba7marao=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
@@ -153,42 +153,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5tlUygb9eJQ9XbuMqUJBsYuwetSnxiCVZCTU+W9aNco=
+			3z1VRx8SZteb3v4MAPIQxhw4Ai1p2SUzQjxirnBJqUI=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m24GkYZk8jyT3ruUBISwA9G+562rcDj0WWxD8mMAmWM=
+			DtSI/XsAG29SoDGrPrFPYi5orPPf34dQugwM55krkdg=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yE1c2wFShbFX051EIpSWL9tJOYRXbjZoilhcsdY/ERA=
+			4iZBTPmWQEDzxZ70PyGnERNqo1P1CmIORmuiVtitwp0=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5tlUygb9eJQ9XbuMqUJBsYuwetSnxiCVZCTU+W9aNco=
+			3z1VRx8SZteb3v4MAPIQxhw4Ai1p2SUzQjxirnBJqUI=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			m24GkYZk8jyT3ruUBISwA9G+562rcDj0WWxD8mMAmWM=
+			DtSI/XsAG29SoDGrPrFPYi5orPPf34dQugwM55krkdg=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yE1c2wFShbFX051EIpSWL9tJOYRXbjZoilhcsdY/ERA=
+			4iZBTPmWQEDzxZ70PyGnERNqo1P1CmIORmuiVtitwp0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -202,7 +202,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sa1zH+dYAkWkG+B5lWPkDuTBQHIaDp7hJx35t9V1HQ=
+			1EIftdxhvt3licDjF+vBVlOsyaxndhPRZIILazthSZE=
 			</data>
 		</dict>
 		<key>PrivateHeaders/coco_std_api.h</key>
@@ -412,7 +412,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9sa1zH+dYAkWkG+B5lWPkDuTBQHIaDp7hJx35t9V1HQ=
+			1EIftdxhvt3licDjF+vBVlOsyaxndhPRZIILazthSZE=
 			</data>
 		</dict>
 		<key>Resources/Header/cocostandard/coco_std_api.h</key>
@@ -622,7 +622,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2F+apqp/nlnE3C+2vX+ZUi/OWLd1b3oYyfVyC6EAR/c=
+			Rhy0vUpCkp5aaYhrvZmaK2BX3nLqgLaHbo9UJpbj6kM=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>

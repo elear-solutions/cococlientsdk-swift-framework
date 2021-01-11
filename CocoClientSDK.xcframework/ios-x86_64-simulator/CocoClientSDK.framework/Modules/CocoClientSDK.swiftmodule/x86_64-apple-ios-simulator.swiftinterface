@@ -187,9 +187,6 @@ extension CocoCallbackDelegate {
   public func NodeConnectStatusCallback(network _: CocoClientSDK.Network?, nodeId _: Swift.UInt32, isOnline _: Swift.Bool, nodeType _: CocoClientSDK.NodeType?, coconetContext _: Swift.UnsafeMutableRawPointer?)
   public func NetworkStateChanged(network _: CocoClientSDK.Network, state _: CocoClientSDK.NetworkDatum)
   public func NetworkDataCallback(network _: CocoClientSDK.Network, coconetContext _: Swift.UnsafeMutableRawPointer?)
-  public func ContentInfoCallback(metadata _: Swift.String, contentTime _: Darwin.time_t, nodeId _: Swift.UInt32, coconetContext _: Swift.UnsafeMutableRawPointer?)
-  public func NetworkMetadataCallback(metadata _: Swift.String, coconetContext _: Swift.UnsafeMutableRawPointer?)
-  public func DataCallback(data _: Swift.String, nodeId _: Swift.UInt32, coconetContext _: Swift.UnsafeMutableRawPointer?)
 }
 @_hasMissingDesignatedInitializers public class InfoReqContentSearch : CocoClientSDK.InfoRequestValue {
   public enum StorageContentType : Swift.Int32 {
@@ -636,16 +633,16 @@ extension Creator {
     get
   }
   public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockDoor : CocoClientSDK.CommandDlock {
   public var pinCode: Swift.String {
     get
   }
   public init(pinCode: Swift.String)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class UnLockDoor : CocoClientSDK.CommandDlock {
   public var pinCode: Swift.String {
@@ -656,16 +653,16 @@ extension Creator {
   }
   public init(pinCode: Swift.String)
   public init(pinCode: Swift.String, timeOut: Swift.UInt32)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockToggel : CocoClientSDK.CommandDlock {
   public var pinRfidCode: Swift.String {
     get
   }
   public init(pinRfidCode: Swift.String)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockSetPin : CocoClientSDK.CommandDlock {
   public var userId: Swift.UInt32 {
@@ -681,16 +678,16 @@ extension Creator {
     get
   }
   public init(userId: Swift.UInt32, userStatus: CocoClientSDK.CapabilityDlock.UserStatus, userType: CocoClientSDK.CapabilityDlock.UserType, pinRfidCode: Swift.String)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockClearPin : CocoClientSDK.CommandDlock {
   public var userId: Swift.UInt32 {
     get
   }
   public init(userId: Swift.UInt32)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityTunnel : CocoClientSDK.Capability {
   public enum AttributeId : Swift.Int32, CocoClientSDK.AttributeIDProtocol, Swift.Hashable, Swift.Codable {
@@ -1265,10 +1262,10 @@ public class InfoRequest {
     case COCO_STD_CMD_STORAGE_CONTROL_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public func storageUpload(contentType: Swift.Int32, uploadTriggerType: Swift.Int32, uploadTriggeredUri: CocoClientSDK.UploadTriggerURI, channelPortArr: [Swift.UInt16], appendFlag: Swift.Int32, offset: Swift.UInt32, size: Swift.UInt32, channelDescriptionArr: [Swift.String], createdTimestamp: Darwin.time_t, commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func storageDownload(contentId: Swift.UInt64, channelPort: Swift.UInt16, offset: Swift.UInt32, size: Swift.UInt32, commandContext: Swift.UnsafeMutableRawPointer?) throws
@@ -1509,9 +1506,9 @@ open class Command : Swift.Codable {
   public var cmdID: Swift.Int32
   public var timeoutMs: Swift.UInt32
   public init(cmdID: Swift.Int32)
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   open func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
 }
 public class CommandStateCB {
   public var networkId: Swift.String {
@@ -2303,10 +2300,10 @@ public class ConnectivityTimers {
     case COCO_STD_CMD_FLUID_LEVEL_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   override public func supports(commandId: CocoClientSDK.CommandIDProtocol?) -> Swift.Bool
   public func EnableFluidLevelSensing(commandContext: Swift.UnsafeMutableRawPointer?) throws
@@ -2731,18 +2728,6 @@ open class Network : Swift.Codable {
       get
     }
   }
-  public enum NetworkType : Swift.Int32, Swift.Codable {
-    case COCO_CLIENT_COCONET_TYPE_MIN
-    case COCO_CLIENT_COCONET_TYPE_IOT
-    case COCO_CLIENT_COCONET_TYPE_CALL_NET
-    case COCO_CLIENT_COCONET_TYPE_MAX
-    case COCO_CLIENT_COCONET_TYPE_UBOUND
-    public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
-    public var rawValue: Swift.Int32 {
-      get
-    }
-  }
   public var id: Swift.String {
     get
   }
@@ -2752,16 +2737,10 @@ open class Network : Swift.Codable {
   public var name: Swift.String? {
     get
   }
-  public var port: Swift.Int {
-    get
-  }
   public var userRole: CocoClientSDK.Network.UserRole? {
     get
   }
   public var accessType: CocoClientSDK.Network.AccessType? {
-    get
-  }
-  public var networkType: CocoClientSDK.Network.NetworkType? {
     get
   }
   public var deviceMap: [Swift.UInt32 : CocoClientSDK.Device] {
@@ -2784,8 +2763,6 @@ open class Network : Swift.Codable {
   open func setName(name: Swift.String)
   open func setUerRole(userRole: CocoClientSDK.Network.UserRole)
   open func setAccessType(accessType: CocoClientSDK.Network.AccessType)
-  open func setNetworkType(networkType: CocoClientSDK.Network.NetworkType)
-  open func setPort(with port: Swift.Int)
   open func setState(state: CocoClientSDK.Network.State)
   open func addToDeviceMap(device: CocoClientSDK.Device)
   open func setDeviceMap(deviceMap: [Swift.UInt32 : CocoClientSDK.Device])
@@ -2803,8 +2780,7 @@ open class Network : Swift.Codable {
   open func setSceneMap(sceneMap: [Swift.UInt16 : CocoClientSDK.Scene])
   open func clearSceneMap()
   open func containsScene(sceneId: Swift.UInt16) -> Swift.Bool
-  public func connect(to networkType: CocoClientSDK.Network.NetworkType = .COCO_CLIENT_COCONET_TYPE_IOT) throws -> Swift.Int32
-  public func connect(to networkType: CocoClientSDK.Network.NetworkType = .COCO_CLIENT_COCONET_TYPE_CALL_NET, nodeId: Swift.UInt32, with inviteURL: Swift.String) throws -> Swift.Bool
+  public func connect(clusterPort: Swift.UInt16 = 0) throws -> Swift.Int32
   public func disconnect() throws
   public func leaveNetwork(context: Swift.UnsafeMutableRawPointer?) throws
   public func addZone(name: Swift.String, timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
@@ -2817,8 +2793,6 @@ open class Network : Swift.Codable {
   public func deleteRules(rules: [CocoClientSDK.Rule], timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func deleteZones(zones: [CocoClientSDK.Zone], timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func forget() throws
-  public func sendContentInfo(with metadata: Swift.String?, contentTime: Darwin.time_t, nodeIds: [Swift.UInt32]) throws -> Swift.Bool
-  public func sendData(with data: Swift.String?, nodeIds: [Swift.UInt32]) throws -> Swift.Bool
   @objc deinit
 }
 extension Network : Swift.Hashable {
@@ -3192,8 +3166,8 @@ open class Attribute : Swift.Codable {
   open func setMinReportingInterval(minReportingInterval: Swift.UInt32)
   open func setMaxReportingInterval(maxReportingInterval: Swift.UInt32)
   open func setParent(capability: CocoClientSDK.Capability)
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
 }
 public class Tunnel {
   public var tunnelHandle: Swift.OpaquePointer? {
