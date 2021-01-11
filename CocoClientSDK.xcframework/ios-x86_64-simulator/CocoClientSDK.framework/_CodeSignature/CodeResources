@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/cococlientsdk/coco_client_api.h</key>
 		<data>
-		E8fOM1u8Lep/SC6dW56otLoIi58=
+		wq6r6AD6mtoz3Xwt4bJAxBLvoaA=
 		</data>
 		<key>Headers/cocostandard/coco_std_api.h</key>
 		<data>
@@ -134,7 +134,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		yxqITiMijqwzNhY/ApFAdVCeiTk=
+		JJRNJClszPoa5yEAlyPX9rJgeMs=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -142,27 +142,27 @@
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		39ZnlVyJIoY0LpANgJPE06PLBD0=
+		3UkJ13dJp5LeMZdwdw69wGOdTVo=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		iF94Xljnb8acG+wdtq5V4G07Kpc=
+		UJEwQ/PTI3XJRllVvsoSr2W1DD8=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		pZ6H97tP523G5p40MN40jMDocqU=
+		kBv3jHp6MEHdSJaUMF8JrSSxDOE=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		39ZnlVyJIoY0LpANgJPE06PLBD0=
+		3UkJ13dJp5LeMZdwdw69wGOdTVo=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		iF94Xljnb8acG+wdtq5V4G07Kpc=
+		UJEwQ/PTI3XJRllVvsoSr2W1DD8=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		pZ6H97tP523G5p40MN40jMDocqU=
+		kBv3jHp6MEHdSJaUMF8JrSSxDOE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>PrivateHeaders/coco_client_api.h</key>
 		<data>
-		E8fOM1u8Lep/SC6dW56otLoIi58=
+		wq6r6AD6mtoz3Xwt4bJAxBLvoaA=
 		</data>
 		<key>PrivateHeaders/coco_std_api.h</key>
 		<data>
@@ -309,7 +309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1EIftdxhvt3licDjF+vBVlOsyaxndhPRZIILazthSZE=
+			9sa1zH+dYAkWkG+B5lWPkDuTBQHIaDp7hJx35t9V1HQ=
 			</data>
 		</dict>
 		<key>Headers/cocostandard/coco_std_api.h</key>
@@ -526,42 +526,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LMe7izajfdQEqqEYUTx2gcx59ujeWw32nrcNgrpdk+E=
+			GmS8o3vvvNXDDBV4HIkFAe+/8Tp+D52KPQR4viGR0Qw=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DmT/gdc+Od+rw2L4aXEnIHtxfXB/v6Ke+iB6Ybv8HXw=
+			yg0upZllUpcFDSxgX2WMWfWOaLtiAr4U5mW2oNky/mI=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			etumq+OTs61nl2YiVKE8b7+MCZ12IQlCv+KDXKsghP4=
+			wrHoCT5T6RgpX9bv8neLe0IMvSWdK7wmh3RaeiJitPg=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LMe7izajfdQEqqEYUTx2gcx59ujeWw32nrcNgrpdk+E=
+			GmS8o3vvvNXDDBV4HIkFAe+/8Tp+D52KPQR4viGR0Qw=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DmT/gdc+Od+rw2L4aXEnIHtxfXB/v6Ke+iB6Ybv8HXw=
+			yg0upZllUpcFDSxgX2WMWfWOaLtiAr4U5mW2oNky/mI=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			etumq+OTs61nl2YiVKE8b7+MCZ12IQlCv+KDXKsghP4=
+			wrHoCT5T6RgpX9bv8neLe0IMvSWdK7wmh3RaeiJitPg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -575,7 +575,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1EIftdxhvt3licDjF+vBVlOsyaxndhPRZIILazthSZE=
+			9sa1zH+dYAkWkG+B5lWPkDuTBQHIaDp7hJx35t9V1HQ=
 			</data>
 		</dict>
 		<key>PrivateHeaders/coco_std_api.h</key>

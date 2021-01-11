@@ -126,18 +126,30 @@ typedef enum{
   COCO_CLIENT_TUNNEL_PROTOCOL_UBOUND = 0x7FFF
 } coco_tunnel_protocol_type_t;
 
+/**
+ * An enum for coconet type
+ */
+typedef enum {
+  COCO_CLIENT_COCONET_TYPE_MIN = -1,
+  COCO_CLIENT_COCONET_TYPE_IOT,      // Existing type of network having NMN
+  COCO_CLIENT_COCONET_TYPE_CALL_NET, // New type of network having CMN
+  COCO_CLIENT_COCONET_TYPE_MAX,
+  COCO_CLIENT_COCONET_TYPE_UBOUND = 0x7FFF
+} coco_client_coconet_type_t;
+
 /* Coco client sdk coconet structure  */
 typedef struct {
   char *networkId;
   char *networkName;
-  uint16_t clusterPort; /* Physical port to be used for cluster communication.
-                           Application is reposible for providing an available port.
-                           Each COCONet requires a unique node. Set this to 0 for
-                           the SDK to choose a port on its own. This is not set
-                           by the SDK when the list of COCONets is fetched.*/
-  int32_t userRole;     // It takes values from coco_std_user_role_type_t enum
-  int32_t accessType;   // It takes values from coco_std_access_type_t enum
+  uint16_t clusterPort;   /* Physical port to be used for cluster communication.
+                             Application is reposible for providing an available port.
+                             Each COCONet requires a unique node. Set this to 0 for
+                             the SDK to choose a port on its own. This is not set
+                             by the SDK when the list of COCONets is fetched.*/
+  int32_t userRole;       // It takes values from coco_std_user_role_type_t enum
+  int32_t accessType;     // It takes values from coco_std_access_type_t enum
   void *coconetContext;
+  int32_t coconetType;    // It will take values from enum coco_client_coconet_type_t
 } coco_client_coconet_t;
 
 typedef enum {
@@ -494,6 +506,29 @@ typedef void (*coco_client_snapshot_status_cb_t)(const char *filePath,
  */
 typedef void (*coco_client_leave_coconet_status_cb_t)(int32_t status, void *requestContext);
 
+/*TODO: Brief and details needs to be updated along with the API implementation */
+/// A callback that provides the content info to the application
+/** @param metadata        Meta data that denotes the content.
+ *  @param contentTime     Content time
+ *  @param srcNodeId       Source node ID
+ *  @param coconetContext  Context passed for the network in the connect API
+ */
+typedef void (*coco_client_content_info_cb_t)(char *metadata, time_t contentTime,
+                                              uint32_t srcNodeId, void *coconetContext);
+
+/// A callback that provides network metadata to the application
+/** @param metadata        Network metadata.
+ *  @param coconetContext  Context passed for the network in the connect API
+ */
+typedef void (*coco_client_network_metadata_cb_t)(char *metadata, void *coconetContext);
+
+/// A callback that provides free-form messages to the application
+/** @param data            Message data.
+ *  @param srcNodeId       Source node ID
+ *  @param coconetContext  Context passed for the network in the connect API
+ */
+typedef void (*coco_client_data_cb_t)(char *data, uint32_t srcNodeId, void *coconetContext);
+
 /* Coco client sdk callback structure */
 typedef struct {
   coco_client_connect_status_cb_t appConnectStatusCb;
@@ -524,6 +559,9 @@ typedef struct {
   coco_client_info_request_status_cb_t appInfoRequestStatusCb;
   coco_client_network_data_cb_t networkDataCb;
   coco_client_leave_coconet_status_cb_t appLeaveCoconetStatusCb;
+  coco_client_content_info_cb_t appContentInfoCb;
+  coco_client_network_metadata_cb_t appNetworkMetadataCb;
+  coco_client_data_cb_t appDataCb;
 } coco_client_app_callbacks_t;
 
 /* Coco client sdk platform function list */
@@ -993,5 +1031,31 @@ char *coco_client_get_version(void);
  * @return    int32_t       : 0 on success, -1 on failure
  ***********************************************/
 int32_t coco_client_leave_coconet(coco_client_coconet_t *coconet, void *requestContext);
+
+/*TODO: Brief and details needs to be updated along with the API implementation */
+/********************************************//**
+ * @brief     API to syncing content info
+ * @details   This API can be called to sync the content info with the destination nodes.
+ * @param     networkId       : Network Id of the COCO network
+ * @param     metadata        : Meta data that needs to sync up
+ * @param     contentTime     : Content sync time
+ * @param     destNodeIdArr   : Destination node ID array.
+ * @param     destNodeIdArrCnt: Destination node ID array count.
+ * @return    int32_t         : 0 on success, -1 on failure
+ ***********************************************/
+int32_t coco_client_send_content_info(char *networkId, char *metadata, time_t contentTime,
+                                      uint32_t *destNodeIdArr, uint32_t destNodeIdArrCnt);
+
+/********************************************//**
+ * @brief     API to send data
+ * @details   This API can be called to send the free-form messages with destination nodes.
+ * @param     networkId       : Network Id of the COCO network
+ * @param     data            : Data that need to send
+ * @param     destNodeIdArr   : Destination node ID array.
+ * @param     destNodeIdArrCnt: Destination node ID array count.
+ * @return    int32_t         : 0 on success, -1 on failure
+ ***********************************************/
+int32_t coco_client_send_data(char *networkId, char *data , uint32_t *destNodeIdArr,
+                              uint32_t destNodeIdArrCnt);
 
 #endif // COCO_CLIENT_API_H_INCLUDED
