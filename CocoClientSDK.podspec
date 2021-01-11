@@ -32,5 +32,7 @@ Pod::Spec.new do |s|
   s.platform = [:ios, :macos]
   s.ios.deployment_target = '11.0'
   s.osx.deployment_target = '10.13'
-  s.vendored_frameworks = 'CocoClientSDK.xcframework'
+  s.source_files = "CocoClientSDK.framework/Headers/*.h"
+  s.public_header_files = "CocoClientSDK.framework/Headers/*.h"
+  s.vendored_frameworks = 'CocoClientSDK.framework'
 end
