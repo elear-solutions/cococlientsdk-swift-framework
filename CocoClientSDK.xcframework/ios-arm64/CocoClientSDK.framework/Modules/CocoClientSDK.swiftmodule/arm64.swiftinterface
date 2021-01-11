@@ -1,10 +1,10 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
 // swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name CocoClientSDK
+import CCocoClientSDK
 @_exported import CocoClientSDK
 import Foundation
 import Swift
-import cococlientsdk_api
 import os
 @_hasMissingDesignatedInitializers public class InfoRespPIN : CocoClientSDK.InfoResponseValue {
   public var pin: Swift.String {
@@ -69,17 +69,11 @@ public class CommandSetMotionSensitivity : CocoClientSDK.CommandMotionSensing {
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class InfoRequestValue : CocoClientSDK.Value {
   @objc deinit
 }
-public func coco_client_media_stream_receive_cb_t(streamHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_media_stream_handle_t>?, channelHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_channel_handle_t>?, data: Swift.UnsafeMutableRawPointer?, len: Darwin.size_t, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContext: Swift.UnsafeMutableRawPointer?)
+public func coco_client_media_stream_receive_cb_t(streamHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_media_stream_handle_t>?, channelHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_channel_handle_t>?, data: Swift.UnsafeMutableRawPointer?, len: Darwin.size_t, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContext: Swift.UnsafeMutableRawPointer?)
 @_hasMissingDesignatedInitializers public class TunnelRTSPParameter : Swift.Codable {
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
-}
-extension OSLog {
-  public static var sdk: os.OSLog
-  public static var wrapper: os.OSLog
-  public convenience init(_ bundle: Foundation.Bundle = .main, category: Swift.String? = nil)
-  public convenience init(_ aClass: Swift.AnyClass, category: Swift.String? = nil)
 }
 @_hasMissingDesignatedInitializers public class CommandMeter : CocoClientSDK.Command {
   public var commandID: CocoClientSDK.CapabilityMeter.CommandId? {
@@ -834,7 +828,7 @@ public class StorageContentMetadata {
   public init(contentId: Swift.UInt64, streamProtocolType: CocoClientSDK.InfoReqContentPlayback.StreamProtocol)
   @objc deinit
 }
-public func coco_client_snapshot_status_cb(filePath: Swift.UnsafePointer<Swift.Int8>?, status: cococlientsdk_api.coco_client_snapshot_status_t, coconetContext: Swift.UnsafeMutableRawPointer?, snapshotContext: Swift.UnsafeMutableRawPointer?)
+public func coco_client_snapshot_status_cb(filePath: Swift.UnsafePointer<Swift.Int8>?, status: CCocoClientSDK.coco_client_snapshot_status_t, coconetContext: Swift.UnsafeMutableRawPointer?, snapshotContext: Swift.UnsafeMutableRawPointer?)
 public class CommandMotorCtrl : CocoClientSDK.Command {
   public var degree: Swift.UInt16 {
     get
@@ -950,8 +944,8 @@ public class CommandStationaryPosition : CocoClientSDK.Command {
 }
 public class CommandSetStationaryPosition : CocoClientSDK.CommandStationaryPosition {
   public init(locationId: Swift.String, lotId: Swift.String, xCoordinate: Swift.Double, yCoordinate: Swift.Double, environmentalFactor: Swift.UInt32)
-  public func getCStructure() -> Swift.UnsafeMutablePointer<cococlientsdk_api.coco_std_cmd_stationary_position_set_device_loc_t>
-  public static func getSwiftObject(stationaryPositionCmd: cococlientsdk_api.coco_std_cmd_stationary_position_set_device_loc_t) -> CocoClientSDK.CommandSetStationaryPosition
+  public func getCStructure() -> Swift.UnsafeMutablePointer<CCocoClientSDK.coco_std_cmd_stationary_position_set_device_loc_t>
+  public static func getSwiftObject(stationaryPositionCmd: CCocoClientSDK.coco_std_cmd_stationary_position_set_device_loc_t) -> CocoClientSDK.CommandSetStationaryPosition
   @objc deinit
   override public init(commandId: CocoClientSDK.CapabilityStationaryPosition.CommandId)
 }
@@ -1044,7 +1038,7 @@ public class ResourceCondition : Swift.Hashable, Swift.Codable {
   open func setOperatorId(operatorType: CocoClientSDK.ResourceCondition.OperatorType)
   open func setRuleValue(ruleValue: Any)
   open func setCondDurationMs(condDurationMs: Swift.UInt32)
-  public func getCStrucuture() -> Swift.UnsafeMutablePointer<cococlientsdk_api.coco_std_rule_resrc_condn_t>
+  public func getCStrucuture() -> Swift.UnsafeMutablePointer<CCocoClientSDK.coco_std_rule_resrc_condn_t>
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   public func encode(to encoder: Swift.Encoder) throws
@@ -1109,7 +1103,7 @@ public class ResourceCondition : Swift.Hashable, Swift.Codable {
   open func setTime(time: Swift.String)
   open func setExpiryTime(time: Swift.String)
   open func setParentRule(parentRule: CocoClientSDK.Rule)
-  public func getCStructure() -> Swift.UnsafeMutablePointer<cococlientsdk_api.coco_std_rule_sched_condn_t>
+  public func getCStructure() -> Swift.UnsafeMutablePointer<CCocoClientSDK.coco_std_rule_sched_condn_t>
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   open func encode(to encoder: Swift.Encoder) throws
@@ -1383,8 +1377,8 @@ public class InfoRequest {
   public func stopMediaRecording(streamIdArray: [Swift.UInt32], commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func configMediaRecording(recordMode: CocoClientSDK.CapabilityMediaStreaming.RecordMode, size: Swift.UInt32, timeMs: Swift.UInt32, recordCoolOffTimeMs: Swift.UInt32, commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func coco_client_media_stream_open(command: CocoClientSDK.MediaStreamingStart, delegate: CocoClientSDK.MediaStreamDelegate, timeoutMs: Swift.UInt32, streamContext: Swift.UnsafeMutableRawPointer?) -> Swift.Bool
-  public func coco_client_media_stream_close(streamHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_media_stream_handle_t>?) -> Swift.Bool
-  public func coco_client_channel_data_send(channelHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_channel_handle_t>, data: Swift.UnsafeMutablePointer<Swift.Int8>, len: Darwin.size_t) -> Darwin.ssize_t
+  public func coco_client_media_stream_close(streamHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_media_stream_handle_t>?) -> Swift.Bool
+  public func coco_client_channel_data_send(channelHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_channel_handle_t>, data: Swift.UnsafeMutablePointer<Swift.Int8>, len: Darwin.size_t) -> Darwin.ssize_t
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   override public init(capabilityId: Swift.Int32, parent: CocoClientSDK.Resource)
@@ -1704,9 +1698,6 @@ open class Capability : Swift.Codable {
   public func getConsumption(commandContext: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func getDemand(commandContext: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   @objc deinit
-}
-extension String {
-  public func getCString() -> Swift.UnsafeMutablePointer<Swift.Int8>
 }
 @_hasMissingDesignatedInitializers public class Native {
   public enum STD_CMD_CAP_ID : Swift.Int32 {
@@ -2487,8 +2478,8 @@ public class CommandSnapshot : CocoClientSDK.Command {
   override public init(capabilityId: Swift.Int32, parent: CocoClientSDK.Resource)
 }
 public protocol MediaStreamDelegate {
-  func streamStatus(streamHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_media_stream_handle_t>?, channelHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_channel_handle_t>?, channelPort: Swift.UInt16, status: CocoClientSDK.CapabilityMediaStreaming.DataStreamStatus, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContext: Swift.UnsafeMutableRawPointer?)
-  func streamReceive(streamHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_media_stream_handle_t>?, channelHandle: Swift.UnsafeMutablePointer<cococlientsdk_api.coco_client_channel_handle_t>?, data: Swift.UnsafeMutableRawPointer?, len: Darwin.size_t, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContex: Swift.UnsafeMutableRawPointer?)
+  func streamStatus(streamHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_media_stream_handle_t>?, channelHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_channel_handle_t>?, channelPort: Swift.UInt16, status: CocoClientSDK.CapabilityMediaStreaming.DataStreamStatus, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContext: Swift.UnsafeMutableRawPointer?)
+  func streamReceive(streamHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_media_stream_handle_t>?, channelHandle: Swift.UnsafeMutablePointer<CCocoClientSDK.coco_client_channel_handle_t>?, data: Swift.UnsafeMutableRawPointer?, len: Darwin.size_t, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContex: Swift.UnsafeMutableRawPointer?)
 }
 @_hasMissingDesignatedInitializers public class Value {
   @objc deinit

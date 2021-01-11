@@ -126,7 +126,7 @@
 		</data>
 		<key>Resources/Info.plist</key>
 		<data>
-		XTKKu2Yb4WPtSggbs4H2/Zl+dHw=
+		IOjlBqtdhfhUDMRC3lH5yNts4v0=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
@@ -160,14 +160,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m24GkYZk8jyT3ruUBISwA9G+562rcDj0WWxD8mMAmWM=
+			EsJcEriqEywe78wttrlyMV4NdXnDChvzq0eSkXcusTA=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yE1c2wFShbFX051EIpSWL9tJOYRXbjZoilhcsdY/ERA=
+			0mqH0hHg+Ne8ZwHyEiZ//R2iNvmZ+I7zSHRbOOR3PNc=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -181,14 +181,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m24GkYZk8jyT3ruUBISwA9G+562rcDj0WWxD8mMAmWM=
+			EsJcEriqEywe78wttrlyMV4NdXnDChvzq0eSkXcusTA=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yE1c2wFShbFX051EIpSWL9tJOYRXbjZoilhcsdY/ERA=
+			0mqH0hHg+Ne8ZwHyEiZ//R2iNvmZ+I7zSHRbOOR3PNc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -622,7 +622,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2F+apqp/nlnE3C+2vX+ZUi/OWLd1b3oYyfVyC6EAR/c=
+			mZH+8pbzy6vR7vVfRS0JaI9Nsx8FAGleqzsNmUZAgyY=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>
