@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		slzNN8vvcsM5PkZ1rmL01ABdWZk=
+		EUpsOcY1RcT4ItYvIMZzBlq56tM=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		ZHfBamsAtKqZE56tEoNX+pZEdak=
+		6djtBXl5spZvHkZ204J5CGcky04=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0hFV5wPwQz2DTfUN9WuJUfk7EAw=
+		dyD5KhdUnZSEs2PBV3b+j6F+8mA=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -38,11 +38,11 @@
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		ZHfBamsAtKqZE56tEoNX+pZEdak=
+		6djtBXl5spZvHkZ204J5CGcky04=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		0hFV5wPwQz2DTfUN9WuJUfk7EAw=
+		dyD5KhdUnZSEs2PBV3b+j6F+8mA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -99,22 +99,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZHfBamsAtKqZE56tEoNX+pZEdak=
+			6djtBXl5spZvHkZ204J5CGcky04=
 			</data>
 			<key>hash2</key>
 			<data>
-			aPrCoYu7JdRFTE7mPpr010X+gNQP7QvXYwuk5tCGN/U=
+			8bzZxsOHYsoh9m3BWB/72cm+fziuYqIfDu4aqnnXtzs=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0hFV5wPwQz2DTfUN9WuJUfk7EAw=
+			dyD5KhdUnZSEs2PBV3b+j6F+8mA=
 			</data>
 			<key>hash2</key>
 			<data>
-			vq33bWnfWrud3cay3CYIxiKKQfOUQZo6wYSeoDmzKxk=
+			mkWWVaBh2RTtLF8WTBDsxEZ7K961RPRGc5Joh9GXMlU=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
@@ -132,22 +132,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZHfBamsAtKqZE56tEoNX+pZEdak=
+			6djtBXl5spZvHkZ204J5CGcky04=
 			</data>
 			<key>hash2</key>
 			<data>
-			aPrCoYu7JdRFTE7mPpr010X+gNQP7QvXYwuk5tCGN/U=
+			8bzZxsOHYsoh9m3BWB/72cm+fziuYqIfDu4aqnnXtzs=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0hFV5wPwQz2DTfUN9WuJUfk7EAw=
+			dyD5KhdUnZSEs2PBV3b+j6F+8mA=
 			</data>
 			<key>hash2</key>
 			<data>
-			vq33bWnfWrud3cay3CYIxiKKQfOUQZo6wYSeoDmzKxk=
+			mkWWVaBh2RTtLF8WTBDsxEZ7K961RPRGc5Joh9GXMlU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
