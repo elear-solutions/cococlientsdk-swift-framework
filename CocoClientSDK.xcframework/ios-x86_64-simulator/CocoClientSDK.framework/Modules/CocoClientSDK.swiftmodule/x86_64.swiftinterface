@@ -269,19 +269,18 @@ extension CocoCallbackDelegate {
   public init(reqSearchCount: Swift.UInt8, offsetIndex: Swift.UInt32, startEpochTime: Darwin.time_t, endEpochTime: Darwin.time_t, contentType: CocoClientSDK.InfoReqContentSearch.StorageContentType, uploadTriggerType: CocoClientSDK.InfoReqContentSearch.UploadTriggerType, uploadTriggeredUri: CocoClientSDK.UploadTriggerURI?, sourceUri: CocoClientSDK.SourceURI?, sortByType: CocoClientSDK.InfoReqContentSearch.SortByType, sortByOrder: CocoClientSDK.InfoReqContentSearch.SortByOrder)
   @objc deinit
 }
-public class ConnectParams : Swift.Codable {
-  public var port: Swift.Int {
+@_hasMissingDesignatedInitializers final public class ConnectParams : Swift.Codable {
+  final public var port: Swift.Int {
     get
   }
-  public var networkType: CocoClientSDK.Network.NetworkType {
+  final public var networkType: CocoClientSDK.Network.NetworkType {
     get
   }
-  public init()
-  public func setPort(_ portNumber: Swift.Int)
-  public func setNetworkType(_ networkType: CocoClientSDK.Network.NetworkType)
+  final public func setPort(_ portNumber: Swift.Int)
+  final public func setNetworkType(_ networkType: CocoClientSDK.Network.NetworkType)
   @objc deinit
-  required public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: Swift.Decoder) throws
+  final public func encode(to encoder: Swift.Encoder) throws
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityHumiditySensing : CocoClientSDK.Capability {
   public enum AttributeId : Swift.Int32, CocoClientSDK.AttributeIDProtocol, Swift.Hashable, Swift.Codable {
