@@ -269,13 +269,14 @@ extension CocoCallbackDelegate {
   public init(reqSearchCount: Swift.UInt8, offsetIndex: Swift.UInt32, startEpochTime: Darwin.time_t, endEpochTime: Darwin.time_t, contentType: CocoClientSDK.InfoReqContentSearch.StorageContentType, uploadTriggerType: CocoClientSDK.InfoReqContentSearch.UploadTriggerType, uploadTriggeredUri: CocoClientSDK.UploadTriggerURI?, sourceUri: CocoClientSDK.SourceURI?, sortByType: CocoClientSDK.InfoReqContentSearch.SortByType, sortByOrder: CocoClientSDK.InfoReqContentSearch.SortByOrder)
   @objc deinit
 }
-@_hasMissingDesignatedInitializers public class ConnectParams : Swift.Codable {
+public class ConnectParams : Swift.Codable {
   public var port: Swift.Int {
     get
   }
   public var networkType: CocoClientSDK.Network.NetworkType {
     get
   }
+  public init()
   public func setPort(_ portNumber: Swift.Int)
   public func setNetworkType(_ networkType: CocoClientSDK.Network.NetworkType)
   @objc deinit
