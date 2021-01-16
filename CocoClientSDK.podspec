@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoClientSDK'
-  s.version          = '0.2.44'
+  s.version          = '0.2.45'
   s.summary          = 'A library to wrap libcococlientsdk.'
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.authors          = {  'rohan-elear' => 'rohansahay@elear.solutions',
     'shrinivas-elear' => 'shrinivasgutte@elear.solutions' }
-  s.source           = {  :git => 'https://github.com/ashishbajaj99/cococlientsdk-swift.git',
+  s.source           = {  :git => 'https://github.com/rohan-elear/cococlientsdk-swift-framework.git',
     :tag => "v#{s.version.to_s}" }
 
   s.swift_version = '4.2'
