@@ -145,6 +145,9 @@ public protocol CocoCallbackDelegate {
   func NetworkStateChanged(network: CocoClientSDK.Network, state: CocoClientSDK.NetworkDatum)
   func NetworkDataCallback(network: CocoClientSDK.Network, coconetContext: Swift.UnsafeMutableRawPointer?)
   func ResourceCommandStatusCallback(commandStateCB: CocoClientSDK.CommandStateCB?, context: Swift.UnsafeMutableRawPointer?, cocoNetContext: Swift.UnsafeMutableRawPointer?)
+  func ContentInfoCallback(metadata: Swift.String, contentTime: Swift.Int32, nodeId: Swift.UInt32, coconetContext: Swift.UnsafeMutableRawPointer?)
+  func NetworkMetadataCallback(metadata: Swift.String, coconetContext: Swift.UnsafeMutableRawPointer?)
+  func DataCallback(data: Swift.String, nodeId: Swift.UInt32, coconetContext: Swift.UnsafeMutableRawPointer?)
 }
 extension CocoCallbackDelegate {
   public func ConnectStatusCallback(network _: CocoClientSDK.Network?, coconetStatus _: CocoClientSDK.Network.State, context _: Swift.UnsafeMutableRawPointer?)
@@ -270,15 +273,27 @@ extension CocoCallbackDelegate {
   @objc deinit
 }
 final public class ConnectParams : Swift.Codable {
-  final public var port: Swift.Int {
+  final public var port: Swift.Int? {
     get
   }
-  final public var networkType: CocoClientSDK.Network.NetworkType {
+  final public var networkName: Swift.String? {
+    get
+  }
+  final public var networkType: CocoClientSDK.Network.NetworkType? {
+    get
+  }
+  final public var userRole: CocoClientSDK.Network.UserRole? {
+    get
+  }
+  final public var accessType: CocoClientSDK.Network.AccessType? {
     get
   }
   public init()
   final public func setPort(_ portNumber: Swift.Int)
+  final public func setNetworkName(_ name: Swift.String)
   final public func setNetworkType(_ networkType: CocoClientSDK.Network.NetworkType)
+  final public func setUserRole(_ userRole: CocoClientSDK.Network.UserRole)
+  final public func setAccessType(_ accessType: CocoClientSDK.Network.AccessType)
   @objc deinit
   public init(from decoder: Swift.Decoder) throws
   final public func encode(to encoder: Swift.Encoder) throws

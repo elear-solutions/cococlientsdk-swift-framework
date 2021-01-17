@@ -14,7 +14,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		zApzUOPp0c025UgviDRhcIXC1Yc=
+		9AvSKzQiriXqyt/sCq9VoAXGq0I=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -22,27 +22,27 @@
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		Bt4hkVC68AgKxwTa5nXVg2MMa3o=
+		3U0BrJ62EIffZWRHndcLoo1jL18=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		a3HKvAL0B44SAbo0OBUjM11vFJ0=
+		crAU5uiTt81MIw/18xYkxieumt8=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		ANXGX5OOP0V6njZvGYCZkBjMbS0=
+		MxgbS/VDsTwIsKp3vy9SNpraLRY=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		Bt4hkVC68AgKxwTa5nXVg2MMa3o=
+		3U0BrJ62EIffZWRHndcLoo1jL18=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		a3HKvAL0B44SAbo0OBUjM11vFJ0=
+		crAU5uiTt81MIw/18xYkxieumt8=
 		</data>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		ANXGX5OOP0V6njZvGYCZkBjMbS0=
+		MxgbS/VDsTwIsKp3vy9SNpraLRY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -88,66 +88,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Bt4hkVC68AgKxwTa5nXVg2MMa3o=
+			3U0BrJ62EIffZWRHndcLoo1jL18=
 			</data>
 			<key>hash2</key>
 			<data>
-			6JnIaEtb3COskcZXqFyg9476vlszv8HGMs3+dFITrkI=
+			HHzyUNTxN1fHQv0xtDNg7l3a9OPH62L75FXREuVqG3Y=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a3HKvAL0B44SAbo0OBUjM11vFJ0=
+			crAU5uiTt81MIw/18xYkxieumt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4UCA4lGRTVzRrCl4a0SXF10NR/7AEuy7whFiLeXQXL0=
+			LjFxxDuyiVBoLNiyUMu6ykoT62svVctuNbNXAJ+I9uY=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ANXGX5OOP0V6njZvGYCZkBjMbS0=
+			MxgbS/VDsTwIsKp3vy9SNpraLRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pUrAjB1gNBQ+z8++v0G0NKecnnMviO7X/wPhyajDDk0=
+			UKwMMirZXKlMPS9WI8AjPeazsyNy68ygmTx2RxUEFUc=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Bt4hkVC68AgKxwTa5nXVg2MMa3o=
+			3U0BrJ62EIffZWRHndcLoo1jL18=
 			</data>
 			<key>hash2</key>
 			<data>
-			6JnIaEtb3COskcZXqFyg9476vlszv8HGMs3+dFITrkI=
+			HHzyUNTxN1fHQv0xtDNg7l3a9OPH62L75FXREuVqG3Y=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			a3HKvAL0B44SAbo0OBUjM11vFJ0=
+			crAU5uiTt81MIw/18xYkxieumt8=
 			</data>
 			<key>hash2</key>
 			<data>
-			4UCA4lGRTVzRrCl4a0SXF10NR/7AEuy7whFiLeXQXL0=
+			LjFxxDuyiVBoLNiyUMu6ykoT62svVctuNbNXAJ+I9uY=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ANXGX5OOP0V6njZvGYCZkBjMbS0=
+			MxgbS/VDsTwIsKp3vy9SNpraLRY=
 			</data>
 			<key>hash2</key>
 			<data>
-			pUrAjB1gNBQ+z8++v0G0NKecnnMviO7X/wPhyajDDk0=
+			UKwMMirZXKlMPS9WI8AjPeazsyNy68ygmTx2RxUEFUc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
