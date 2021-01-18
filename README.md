@@ -5,13 +5,13 @@ Swift wrapper which can be used rapid develop of COCO applications on iOS and ma
 
 ## Setup
 
-Coco supports CocoaPods for dependency management.
+CocoClientSDK supports CocoaPods for dependency management.
 
 ### CocoaPods
 
 ``` ruby
 
-pod 'CocoClientSDK', :git => 'https://github.com/rohan-elear/cococlientsdk-swift-framework.git', :branch => 'master'
+pod 'CocoClientSDK', :git => 'https://github.com/elear-solutions/cococlientsdk-swift-framework.git'
 
 ```
 
