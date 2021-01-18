@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoClientSDK'
-  s.version          = '0.2.46'
+  s.version          = '0.2.45'
   s.summary          = 'A library to wrap libcococlientsdk.'
 
   # This description is used to generate tags and improve search results.
@@ -22,11 +22,11 @@ Pod::Spec.new do |s|
   this wrapper can be used rapid develop of COCO applications on iOS platform.
   DESC
 
-  s.homepage         = 'https://github.com/ashishbajaj99/cococlientsdk-swift'
+  s.homepage         = 'https://github.com/elear-solutions/cococlientsdk-swift-framework'
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.authors          = {  'rohan-elear' => 'rohansahay@elear.solutions',
                           'shrinivas-elear' => 'shrinivasgutte@elear.solutions' }
-  s.source           = {  :git => 'https://github.com/rohan-elear/cococlientsdk-swift-framework.git',
+  s.source           = {  :git => 'https://github.com/elear-solutions/cococlientsdk-swift-framework.git',
                           :tag => "v#{s.version.to_s}" }
 
   s.swift_version = '4.2'
