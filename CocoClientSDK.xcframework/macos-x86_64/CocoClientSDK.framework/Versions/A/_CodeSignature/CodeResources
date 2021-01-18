@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		RuOxiGrEPgIFoaxgfJjZs2IwpRo=
+		bwgzNzoaVM9WC3TfyM+9x6s+Yog=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
@@ -41,66 +41,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MujHUQiJUnL5UKjgMg5G5Uy4QnA=
+			2AvczPW4lQwEZpyeGlk8y0+KEk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xufNBwn2zI9TAOXkYG0uSOpklzT9TjgIonlVDvUj8GI=
+			Ez72bHlBqE/tUnhAt5gddLl4x4nxj067ItHmK4mm6kM=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z86/ORSR5y/HjHtpds3Ed5QjZAA=
+			ycPmHG2eXGIEHmXYRsEPWbAtY5Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			MHMEg4/tsBYGnepBE1ZqUXA3NIHzaTzos6pg5YJRi/Q=
+			O1Z5cUHryXlCiyeYMgDoKYbqAEwZyijfeafdlW9mv5k=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mOKIIkNvTaKQN0yoKo/xIAHSArI=
+			nyfEU75b4jMTc/01f/qQyZ0OyVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QRG1gy6XlSHJOkF7h1XjuH/mu+89hZZlBv83dcmMnEY=
+			MtmS9gJ2kMB5qmIsa+GrICdVyjTU8XLgxeZicmfqnNo=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MujHUQiJUnL5UKjgMg5G5Uy4QnA=
+			2AvczPW4lQwEZpyeGlk8y0+KEk8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xufNBwn2zI9TAOXkYG0uSOpklzT9TjgIonlVDvUj8GI=
+			Ez72bHlBqE/tUnhAt5gddLl4x4nxj067ItHmK4mm6kM=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			z86/ORSR5y/HjHtpds3Ed5QjZAA=
+			ycPmHG2eXGIEHmXYRsEPWbAtY5Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			MHMEg4/tsBYGnepBE1ZqUXA3NIHzaTzos6pg5YJRi/Q=
+			O1Z5cUHryXlCiyeYMgDoKYbqAEwZyijfeafdlW9mv5k=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			mOKIIkNvTaKQN0yoKo/xIAHSArI=
+			nyfEU75b4jMTc/01f/qQyZ0OyVw=
 			</data>
 			<key>hash2</key>
 			<data>
-			QRG1gy6XlSHJOkF7h1XjuH/mu+89hZZlBv83dcmMnEY=
+			MtmS9gJ2kMB5qmIsa+GrICdVyjTU8XLgxeZicmfqnNo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -118,11 +118,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RuOxiGrEPgIFoaxgfJjZs2IwpRo=
+			bwgzNzoaVM9WC3TfyM+9x6s+Yog=
 			</data>
 			<key>hash2</key>
 			<data>
-			zwvY34hWEfVjI45rqTnXoF7e0w99uFONAALUavXE6ms=
+			jHLP3eePL18eIOU8IoOB6+WmKY1C0U7nkzpltTDmJ9Q=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>

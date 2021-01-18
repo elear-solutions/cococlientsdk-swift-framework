@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)
-// swift-module-flags: -target x86_64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -Onone -module-name CocoClientSDK
+// swift-module-flags: -target x86_64-apple-macos10.15 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name CocoClientSDK
 @_exported import CocoClientSDK
 import Foundation
 import Swift
@@ -657,16 +657,16 @@ extension Creator {
     get
   }
   public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockDoor : CocoClientSDK.CommandDlock {
   public var pinCode: Swift.String {
     get
   }
   public init(pinCode: Swift.String)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class UnLockDoor : CocoClientSDK.CommandDlock {
   public var pinCode: Swift.String {
@@ -677,16 +677,16 @@ extension Creator {
   }
   public init(pinCode: Swift.String)
   public init(pinCode: Swift.String, timeOut: Swift.UInt32)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockToggel : CocoClientSDK.CommandDlock {
   public var pinRfidCode: Swift.String {
     get
   }
   public init(pinRfidCode: Swift.String)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockSetPin : CocoClientSDK.CommandDlock {
   public var userId: Swift.UInt32 {
@@ -702,16 +702,16 @@ extension Creator {
     get
   }
   public init(userId: Swift.UInt32, userStatus: CocoClientSDK.CapabilityDlock.UserStatus, userType: CocoClientSDK.CapabilityDlock.UserType, pinRfidCode: Swift.String)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class LockClearPin : CocoClientSDK.CommandDlock {
   public var userId: Swift.UInt32 {
     get
   }
   public init(userId: Swift.UInt32)
-  @objc deinit
   override public init(commandID: CocoClientSDK.CapabilityDlock.CommandId)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityTunnel : CocoClientSDK.Capability {
   public enum AttributeId : Swift.Int32, CocoClientSDK.AttributeIDProtocol, Swift.Hashable, Swift.Codable {
@@ -1281,10 +1281,10 @@ public class InfoRequest {
     case COCO_STD_CMD_STORAGE_CONTROL_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public func storageUpload(contentType: Swift.Int32, uploadTriggerType: Swift.Int32, uploadTriggeredUri: CocoClientSDK.UploadTriggerURI, channelPortArr: [Swift.UInt16], appendFlag: Swift.Int32, offset: Swift.UInt32, size: Swift.UInt32, channelDescriptionArr: [Swift.String], createdTimestamp: Darwin.time_t, commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func storageDownload(contentId: Swift.UInt64, channelPort: Swift.UInt16, offset: Swift.UInt32, size: Swift.UInt32, commandContext: Swift.UnsafeMutableRawPointer?) throws
@@ -1523,9 +1523,9 @@ open class Command : Swift.Codable {
   public var cmdID: Swift.Int32
   public var timeoutMs: Swift.UInt32
   public init(cmdID: Swift.Int32)
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   open func encode(to encoder: Swift.Encoder) throws
+  @objc deinit
 }
 public class CommandStateCB {
   public var networkId: Swift.String {
@@ -1663,10 +1663,10 @@ open class Capability : Swift.Codable {
     case COCO_STD_CMD_METER_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public enum ConsumptionScale : Swift.Int32, Swift.Codable {
     case COCO_STD_CONS_SCALE_MIN
@@ -1792,8 +1792,8 @@ open class Capability : Swift.Codable {
 }
 public class CommandMediaStreaming : CocoClientSDK.Command {
   public init(commandId: CocoClientSDK.CapabilityMediaStreaming.CommandId)
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 public class MediaStreamingStart : CocoClientSDK.CommandMediaStreaming {
   public init(streamId: Swift.UInt32, streamSessionId: Swift.Int32, streamDescription: Swift.String, channelPortArr: [Swift.UInt16], streamTransportTypeArr: [CocoClientSDK.CapabilityMediaStreaming.MediaTrasportType])
@@ -1807,17 +1807,17 @@ public class MediaStreamingStop : CocoClientSDK.CommandMediaStreaming {
 }
 public class MediaRecordStart : CocoClientSDK.CommandMediaStreaming {
   public init(streamIdArray: [Swift.UInt32], streamDescriptionArr: [Swift.String])
-  @objc deinit
   override public init(commandId: CocoClientSDK.CapabilityMediaStreaming.CommandId)
+  @objc deinit
 }
 public class MediaRecordStop : CocoClientSDK.CommandMediaStreaming {
   public init(streamIdArray: [Swift.UInt32])
-  @objc deinit
   override public init(commandId: CocoClientSDK.CapabilityMediaStreaming.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MediaRecordConfig : CocoClientSDK.CommandMediaStreaming {
-  @objc deinit
   override public init(commandId: CocoClientSDK.CapabilityMediaStreaming.CommandId)
+  @objc deinit
 }
 open class Device : Swift.Codable {
   public enum PowerSource : Swift.Int32, Swift.Codable {
@@ -2112,15 +2112,15 @@ public class AdvertiseResource : Swift.Hashable, Swift.Equatable {
     case COCO_STD_CMD_STORAGE_CONFIG_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public func configStorage(storageNodeId: Swift.UInt32, resourceEui: Swift.String, commandContext: Swift.UnsafeMutableRawPointer?) throws
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   override public init(capabilityId: Swift.Int32, parent: CocoClientSDK.Resource)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityColor : CocoClientSDK.Capability {
   public enum AttributeId : Swift.Int32, CocoClientSDK.AttributeIDProtocol, Swift.Hashable, Swift.Codable {
@@ -2161,10 +2161,10 @@ public class AdvertiseResource : Swift.Hashable, Swift.Equatable {
     case COCO_STD_CMD_COLOR_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   override public func supports(commandId: CocoClientSDK.CommandIDProtocol?) -> Swift.Bool
   public func setRGB(red: Swift.UInt8, green: Swift.UInt8, blue: Swift.UInt8, transition: Swift.Bool, transitionTime: Swift.UInt32, commandContext: Swift.UnsafeMutableRawPointer?) throws
@@ -2178,8 +2178,8 @@ public class AdvertiseResource : Swift.Hashable, Swift.Equatable {
     get
   }
   public init(commandID: CocoClientSDK.CapabilityOnOff.CommandId)
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityMotionSensing : CocoClientSDK.Capability {
   public enum AttributeId : Swift.Int32, CocoClientSDK.AttributeIDProtocol, Swift.Hashable, Swift.Codable {
@@ -2214,10 +2214,10 @@ public class AdvertiseResource : Swift.Hashable, Swift.Equatable {
     case COCO_STD_CMD_MOTION_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   override public func supports(commandId: CocoClientSDK.CommandIDProtocol?) -> Swift.Bool
   public func enableMotionSensing(commandContext: Swift.UnsafeMutableRawPointer?) throws
@@ -2314,10 +2314,10 @@ public class ConnectivityTimers {
     case COCO_STD_CMD_FLUID_LEVEL_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   override public func supports(commandId: CocoClientSDK.CommandIDProtocol?) -> Swift.Bool
   public func EnableFluidLevelSensing(commandContext: Swift.UnsafeMutableRawPointer?) throws
@@ -2351,10 +2351,10 @@ public class ConnectivityTimers {
     case COCO_STD_CMD_FIRE_SENSING_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   override public func supports(commandId: CocoClientSDK.CommandIDProtocol?) -> Swift.Bool
   public func EnableFireSensing(commandContext: Swift.UnsafeMutableRawPointer?) throws
@@ -2388,8 +2388,8 @@ public class ConnectivityTimers {
   }
   public init(level: Swift.UInt8, transition: Swift.Bool)
   public static func get_command_level_obj(commandParam: Swift.UnsafeMutableRawPointer?, commandId _: Swift.Int32) -> CocoClientSDK.CommandLevel
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class CommandLevelWithONOFF : CocoClientSDK.Command {
   public var level: Swift.UInt8? {
@@ -2409,8 +2409,8 @@ public class ConnectivityTimers {
   }
   public init(level: Swift.UInt8, transition: Swift.Bool, restoreLevelFlag: Swift.Bool)
   public static func get_command_level_with_on_off_obj(commandParam: Swift.UnsafeMutableRawPointer?, commandId _: Swift.Int32) -> CocoClientSDK.CommandLevelWithONOFF
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 public protocol PlatformDelegate {
   func getCwdPath() -> Swift.String
@@ -2462,10 +2462,10 @@ public class CommandSnapshot : CocoClientSDK.Command {
     case COCO_STD_CMD_MOTOR_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public enum PanDirection : Swift.Int32, Swift.Hashable, Swift.Codable {
     case COCO_STD_MOTOR_PAN_DIREC_MIN
@@ -2474,10 +2474,10 @@ public class CommandSnapshot : CocoClientSDK.Command {
     case COCO_STD_MOTOR_PAN_DIREC_MAX
     case COCO_STD_MOTOR_PAN_DIREC_UBOUND
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public enum TiltDirection : Swift.Int32, Swift.Hashable, Swift.Codable {
     case COCO_STD_MOTOR_TILT_DIREC_MIN
@@ -2486,16 +2486,16 @@ public class CommandSnapshot : CocoClientSDK.Command {
     case COCO_STD_MOTOR_TILT_DIREC_MAX
     case COCO_STD_MOTOR_TILT_DIREC_UBOUND
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public func setMotorPan(direction: CocoClientSDK.CapabilityMotorCtrl.PanDirection, degree: Swift.UInt16, speed: Swift.Int32, commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func setMotorTilt(direction: CocoClientSDK.CapabilityMotorCtrl.TiltDirection, degree: Swift.UInt16, speed: Swift.Int32, commandContext: Swift.UnsafeMutableRawPointer?) throws
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   override public init(capabilityId: Swift.Int32, parent: CocoClientSDK.Resource)
+  @objc deinit
 }
 public protocol MediaStreamDelegate {
 }
@@ -2586,10 +2586,10 @@ public protocol MediaStreamDelegate {
     case COCO_STD_CMD_SNAPSHOT_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public enum SnapShotStatus : Swift.Int32, Swift.Codable {
     case COCO_CLIENT_SNAPSHOT_MIN
@@ -2606,9 +2606,9 @@ public protocol MediaStreamDelegate {
   }
   public func snapshotImage(channelPort: Swift.UInt32, pixelHeight: Swift.UInt16, pixelWidth: Swift.UInt16, commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func captureSnapshot(pixelHeight: Swift.UInt16, pixelWidth: Swift.UInt16, downloadPath: Swift.String, delegate: CocoClientSDK.SnapshotDelegate, timeoutMs: Swift.UInt32, commandContext: Swift.UnsafeMutableRawPointer?)
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   override public init(capabilityId: Swift.Int32, parent: CocoClientSDK.Resource)
+  @objc deinit
 }
 open class Zone : Swift.Codable {
   public var parentNetwork: CocoClientSDK.Network? {
@@ -2699,7 +2699,7 @@ public enum NodeType : Swift.Int32, Swift.Codable {
     get
   }
 }
-@_hasMissingDesignatedInitializers open class Network : Swift.Codable {
+open class Network : Swift.Codable {
   public enum State : Swift.Int32, Swift.Codable {
     case COCO_CLIENT_COCONET_STATE_MIN
     case COCO_CLIENT_CONNECTED
@@ -2785,10 +2785,11 @@ public enum NodeType : Swift.Int32, Swift.Codable {
   public var ruleMap: [Swift.UInt16 : CocoClientSDK.Rule] {
     get
   }
-  public static var DEFAULT_ZONE_ID: Swift.UInt16
-  public static var DEFAULT_ZONE_NAME: Swift.String
+  public static let DEFAULT_ZONE_ID: Swift.UInt16
+  public static let DEFAULT_ZONE_NAME: Swift.String
   open func encode(to encoder: Swift.Encoder) throws
   required public init(from decoder: Swift.Decoder) throws
+  public init(id: Swift.String)
   open func setName(name: Swift.String)
   open func setUerRole(userRole: CocoClientSDK.Network.UserRole)
   open func setAccessType(accessType: CocoClientSDK.Network.AccessType)
@@ -2809,7 +2810,7 @@ public enum NodeType : Swift.Int32, Swift.Codable {
   open func setSceneMap(sceneMap: [Swift.UInt16 : CocoClientSDK.Scene])
   open func clearSceneMap()
   open func containsScene(sceneId: Swift.UInt16) -> Swift.Bool
-  public func connect(_ parameter: CocoClientSDK.ConnectParams?) throws -> Swift.Int32
+  public func connect(_ parameter: CocoClientSDK.ConnectParams = ConnectParams()) throws -> Swift.Int32
   public static func connect(with parameter: CocoClientSDK.ConnectParams, networkId: Swift.String, nodeId: Swift.UInt32, inviteURL: Swift.String) throws -> Swift.Bool
   public func disconnect() throws
   public func leaveNetwork(context: Swift.UnsafeMutableRawPointer?) throws
@@ -2860,8 +2861,8 @@ extension Network : Swift.Equatable {
   }
   public init(transition: Swift.Bool, transitionTime: Swift.UInt32, commandID: CocoClientSDK.CapabilityColor.CommandId)
   public static func get_color_cmd_command_obj(commandParam: Swift.UnsafeMutableRawPointer?, commandId: Swift.Int32) -> CocoClientSDK.CommandColor?
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class RGB : CocoClientSDK.CommandColor {
   public var red: Swift.UInt8? {
@@ -2874,8 +2875,8 @@ extension Network : Swift.Equatable {
     get
   }
   public init(red: Swift.UInt8, green: Swift.UInt8, blue: Swift.UInt8, transition: Swift.Bool, transitionTime: Swift.UInt32)
-  @objc deinit
   override public init(transition: Swift.Bool, transitionTime: Swift.UInt32, commandID: CocoClientSDK.CapabilityColor.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class HSL : CocoClientSDK.CommandColor {
   public var hue: Swift.UInt16? {
@@ -2888,16 +2889,16 @@ extension Network : Swift.Equatable {
     get
   }
   public init(hue: Swift.UInt16, saturation: Swift.UInt8, luminance: Swift.UInt8, transition: Swift.Bool, transitionTime: Swift.UInt32)
-  @objc deinit
   override public init(transition: Swift.Bool, transitionTime: Swift.UInt32, commandID: CocoClientSDK.CapabilityColor.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Temperature : CocoClientSDK.CommandColor {
   public var temperature: Swift.Int? {
     get
   }
   public init(temperature: Swift.Int, transition: Swift.Bool, transitionTime: Swift.UInt32)
-  @objc deinit
   override public init(transition: Swift.Bool, transitionTime: Swift.UInt32, commandID: CocoClientSDK.CapabilityColor.CommandId)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class ColorComponent : CocoClientSDK.CommandColor {
   public var colorComponentIds: [Swift.Int] {
@@ -2907,8 +2908,8 @@ extension Network : Swift.Equatable {
     get
   }
   public init(colorComponentIds: [Swift.Int], colorComponentValues: [Swift.Int], transition: Swift.Bool, transitionTime: Swift.UInt32)
-  @objc deinit
   override public init(transition: Swift.Bool, transitionTime: Swift.UInt32, commandID: CocoClientSDK.CapabilityColor.CommandId)
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityWarning : CocoClientSDK.Capability {
   public enum AttributeId : Swift.Int32, CocoClientSDK.AttributeIDProtocol, Swift.Hashable, Swift.Codable {
@@ -2931,10 +2932,10 @@ extension Network : Swift.Equatable {
     case COCO_STD_CMD_﻿WARNING_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   public enum WarningType : Swift.Int32, Swift.Codable {
     case COCO_STD_WARNING_TYPE_MIN
@@ -3180,10 +3181,10 @@ open class Attribute : Swift.Codable {
     case COCO_DATA_TYPE_MAX
     case COCO_DATA_TYPE_UBOUND
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   open func encode(to encoder: Swift.Encoder) throws
   public init(attributeId: Swift.Int32, parent: CocoClientSDK.Capability)
@@ -3198,8 +3199,8 @@ open class Attribute : Swift.Codable {
   open func setMinReportingInterval(minReportingInterval: Swift.UInt32)
   open func setMaxReportingInterval(maxReportingInterval: Swift.UInt32)
   open func setParent(capability: CocoClientSDK.Capability)
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
 }
 public class Tunnel {
   public var tunnelHandle: Swift.OpaquePointer? {
@@ -3226,8 +3227,8 @@ public class CommandImageCtrl : CocoClientSDK.Command {
     get
   }
   public init(commandID: CocoClientSDK.CapabilityImageCtrl.CommandId)
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Identifier : Swift.Codable {
   public var networkId: Swift.String {
@@ -3245,8 +3246,8 @@ public class CommandImageCtrl : CocoClientSDK.Command {
   public var attributeId: Swift.Int32 {
     get
   }
-  @objc deinit
   required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
   public func encode(to encoder: Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class UploadTriggerURI : CocoClientSDK.Identifier {
@@ -3271,8 +3272,8 @@ public enum CacheManager {
     get
   }
   public init(commandID: CocoClientSDK.CapabilityContactSensing.CommandId)
-  @objc deinit
   override public init(cmdID: Swift.Int32)
+  @objc deinit
 }
 public enum Protocol : Swift.Int32, Swift.Codable {
   case COCO_STD_PROTOCOL_MIN
@@ -3281,10 +3282,10 @@ public enum Protocol : Swift.Int32, Swift.Codable {
   case COCO_STD_PROTOCOL_MAX
   case COCO_STD_PROTOCOL_UBOUND
   public typealias RawValue = Swift.Int32
-  public init?(rawValue: Swift.Int32)
   public var rawValue: Swift.Int32 {
     get
   }
+  public init?(rawValue: Swift.Int32)
 }
 public class CommandDiscover {
   public init(protocolId: CocoClientSDK.`Protocol`)
@@ -3311,10 +3312,10 @@ public class CommandDiscover {
     case COCO_STD_CMD_STATIONARY_POSITION_UBOUND
     public func getInt() -> Swift.Int32
     public typealias RawValue = Swift.Int32
-    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
+    public init?(rawValue: Swift.Int32)
   }
   override public init(capabilityId: Swift.Int32, parent: CocoClientSDK.Resource)
   override public func supports(commandId: CocoClientSDK.CommandIDProtocol?) -> Swift.Bool
@@ -3345,3 +3346,185 @@ public class CommandDiscover {
   }
   @objc deinit
 }
+extension CocoClientSDK.CapabilityOccupancySensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityOccupancySensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.InfoReqContentSearch.StorageContentType : Swift.Equatable {}
+extension CocoClientSDK.InfoReqContentSearch.StorageContentType : Swift.Hashable {}
+extension CocoClientSDK.InfoReqContentSearch.StorageContentType : Swift.RawRepresentable {}
+extension CocoClientSDK.InfoReqContentSearch.UploadTriggerType : Swift.Equatable {}
+extension CocoClientSDK.InfoReqContentSearch.UploadTriggerType : Swift.Hashable {}
+extension CocoClientSDK.InfoReqContentSearch.UploadTriggerType : Swift.RawRepresentable {}
+extension CocoClientSDK.InfoReqContentSearch.SortByType : Swift.Equatable {}
+extension CocoClientSDK.InfoReqContentSearch.SortByType : Swift.Hashable {}
+extension CocoClientSDK.InfoReqContentSearch.SortByType : Swift.RawRepresentable {}
+extension CocoClientSDK.InfoReqContentSearch.SortByOrder : Swift.Equatable {}
+extension CocoClientSDK.InfoReqContentSearch.SortByOrder : Swift.Hashable {}
+extension CocoClientSDK.InfoReqContentSearch.SortByOrder : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityHumiditySensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityHumiditySensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityDlock.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityDlock.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityDlock.UserStatus : Swift.Equatable {}
+extension CocoClientSDK.CapabilityDlock.UserStatus : Swift.Hashable {}
+extension CocoClientSDK.CapabilityDlock.UserStatus : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityDlock.UserType : Swift.Equatable {}
+extension CocoClientSDK.CapabilityDlock.UserType : Swift.Hashable {}
+extension CocoClientSDK.CapabilityDlock.UserType : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityContactSensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityContactSensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityImageCtrl.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityImageCtrl.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CommandTunnel.Status : Swift.Equatable {}
+extension CocoClientSDK.CommandTunnel.Status : Swift.Hashable {}
+extension CocoClientSDK.CommandTunnel.Status : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityNetworkConfiguration.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTunnel.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTunnel.IPVersion : Swift.Equatable {}
+extension CocoClientSDK.CapabilityTunnel.IPVersion : Swift.Hashable {}
+extension CocoClientSDK.CapabilityTunnel.IPVersion : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelTransport : Swift.Equatable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelTransport : Swift.Hashable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelTransport : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelType : Swift.Equatable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelType : Swift.Hashable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelType : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelProtocol : Swift.Equatable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelProtocol : Swift.Hashable {}
+extension CocoClientSDK.CapabilityTunnel.TunnelProtocol : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTunnel.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.InfoReqContentPlayback.StreamProtocol : Swift.Equatable {}
+extension CocoClientSDK.InfoReqContentPlayback.StreamProtocol : Swift.Hashable {}
+extension CocoClientSDK.InfoReqContentPlayback.StreamProtocol : Swift.RawRepresentable {}
+extension CocoClientSDK.Parameter.Key : Swift.Equatable {}
+extension CocoClientSDK.Parameter.Key : Swift.Hashable {}
+extension CocoClientSDK.Parameter.Key : Swift.RawRepresentable {}
+extension CocoClientSDK.InfoRespContentPlayback.PlaybackReqError : Swift.Equatable {}
+extension CocoClientSDK.InfoRespContentPlayback.PlaybackReqError : Swift.Hashable {}
+extension CocoClientSDK.InfoRespContentPlayback.PlaybackReqError : Swift.RawRepresentable {}
+extension CocoClientSDK.ResourceCondition.OperatorType : Swift.Equatable {}
+extension CocoClientSDK.ResourceCondition.OperatorType : Swift.Hashable {}
+extension CocoClientSDK.ResourceCondition.OperatorType : Swift.RawRepresentable {}
+extension CocoClientSDK.ScheduleCondition.ScheduleType : Swift.Equatable {}
+extension CocoClientSDK.ScheduleCondition.ScheduleType : Swift.Hashable {}
+extension CocoClientSDK.ScheduleCondition.ScheduleType : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityKeyPressSensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityKeyPressSensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityKeyPressSensing.KeypressScene : Swift.Equatable {}
+extension CocoClientSDK.CapabilityKeyPressSensing.KeypressScene : Swift.Hashable {}
+extension CocoClientSDK.CapabilityKeyPressSensing.KeypressScene : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityStorageControl.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityStorageControl.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMediaStreaming.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMediaStreaming.MediaTrasportType : Swift.Equatable {}
+extension CocoClientSDK.CapabilityMediaStreaming.MediaTrasportType : Swift.Hashable {}
+extension CocoClientSDK.CapabilityMediaStreaming.MediaTrasportType : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMediaStreaming.DataStreamStatus : Swift.Equatable {}
+extension CocoClientSDK.CapabilityMediaStreaming.DataStreamStatus : Swift.Hashable {}
+extension CocoClientSDK.CapabilityMediaStreaming.DataStreamStatus : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMediaStreaming.StreamStatus : Swift.Equatable {}
+extension CocoClientSDK.CapabilityMediaStreaming.StreamStatus : Swift.Hashable {}
+extension CocoClientSDK.CapabilityMediaStreaming.StreamStatus : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMediaStreaming.RecordStatus : Swift.Equatable {}
+extension CocoClientSDK.CapabilityMediaStreaming.RecordStatus : Swift.Hashable {}
+extension CocoClientSDK.CapabilityMediaStreaming.RecordStatus : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMediaStreaming.RecordMode : Swift.Equatable {}
+extension CocoClientSDK.CapabilityMediaStreaming.RecordMode : Swift.Hashable {}
+extension CocoClientSDK.CapabilityMediaStreaming.RecordMode : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMediaStreaming.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityLevel.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityLevel.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityNotification.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityNotification.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.ERROR_NO : Swift.Equatable {}
+extension CocoClientSDK.ERROR_NO : Swift.Hashable {}
+extension CocoClientSDK.ERROR_NO : Swift.RawRepresentable {}
+extension CocoClientSDK.StatusCode : Swift.Equatable {}
+extension CocoClientSDK.StatusCode : Swift.Hashable {}
+extension CocoClientSDK.StatusCode : Swift.RawRepresentable {}
+extension CocoClientSDK.Capability.CapabilityId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMeter.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMeter.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMeter.ConsumptionScale : Swift.Equatable {}
+extension CocoClientSDK.CapabilityMeter.ConsumptionScale : Swift.Hashable {}
+extension CocoClientSDK.CapabilityMeter.ConsumptionScale : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMeter.DemandScale : Swift.Equatable {}
+extension CocoClientSDK.CapabilityMeter.DemandScale : Swift.Hashable {}
+extension CocoClientSDK.CapabilityMeter.DemandScale : Swift.RawRepresentable {}
+extension CocoClientSDK.Native.STD_CMD_CAP_ID : Swift.Equatable {}
+extension CocoClientSDK.Native.STD_CMD_CAP_ID : Swift.Hashable {}
+extension CocoClientSDK.Native.STD_CMD_CAP_ID : Swift.RawRepresentable {}
+extension CocoClientSDK.Device.PowerSource : Swift.Equatable {}
+extension CocoClientSDK.Device.PowerSource : Swift.Hashable {}
+extension CocoClientSDK.Device.PowerSource : Swift.RawRepresentable {}
+extension CocoClientSDK.Device.ReceiverType : Swift.Equatable {}
+extension CocoClientSDK.Device.ReceiverType : Swift.Hashable {}
+extension CocoClientSDK.Device.ReceiverType : Swift.RawRepresentable {}
+extension CocoClientSDK.Resource.PowerSource : Swift.Equatable {}
+extension CocoClientSDK.Resource.PowerSource : Swift.Hashable {}
+extension CocoClientSDK.Resource.PowerSource : Swift.RawRepresentable {}
+extension CocoClientSDK.Resource.ReceiverType : Swift.Equatable {}
+extension CocoClientSDK.Resource.ReceiverType : Swift.Hashable {}
+extension CocoClientSDK.Resource.ReceiverType : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityStorageCofig.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityStorageCofig.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityColor.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityColor.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMotionSensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMotionSensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityRealTimePosition.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityFluidLevelSensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityFluidLevelSensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityFireSensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityFireSensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMotorCtrl.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMotorCtrl.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMotorCtrl.PanDirection : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityMotorCtrl.TiltDirection : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityOnOff.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityOnOff.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTemperatureSensing.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityTemperatureSensing.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilitySnapshot.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilitySnapshot.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilitySnapshot.SnapShotStatus : Swift.Equatable {}
+extension CocoClientSDK.CapabilitySnapshot.SnapShotStatus : Swift.Hashable {}
+extension CocoClientSDK.CapabilitySnapshot.SnapShotStatus : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityIlluminance.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityIlluminance.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.NodeType : Swift.Equatable {}
+extension CocoClientSDK.NodeType : Swift.Hashable {}
+extension CocoClientSDK.NodeType : Swift.RawRepresentable {}
+extension CocoClientSDK.Network.State : Swift.Equatable {}
+extension CocoClientSDK.Network.State : Swift.Hashable {}
+extension CocoClientSDK.Network.State : Swift.RawRepresentable {}
+extension CocoClientSDK.Network.UserRole : Swift.Equatable {}
+extension CocoClientSDK.Network.UserRole : Swift.Hashable {}
+extension CocoClientSDK.Network.UserRole : Swift.RawRepresentable {}
+extension CocoClientSDK.Network.AccessType : Swift.Equatable {}
+extension CocoClientSDK.Network.AccessType : Swift.Hashable {}
+extension CocoClientSDK.Network.AccessType : Swift.RawRepresentable {}
+extension CocoClientSDK.Network.NetworkType : Swift.Equatable {}
+extension CocoClientSDK.Network.NetworkType : Swift.Hashable {}
+extension CocoClientSDK.Network.NetworkType : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityWarning.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityWarning.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityWarning.WarningType : Swift.Equatable {}
+extension CocoClientSDK.CapabilityWarning.WarningType : Swift.Hashable {}
+extension CocoClientSDK.CapabilityWarning.WarningType : Swift.RawRepresentable {}
+extension CocoClientSDK.Message.MessageType : Swift.Equatable {}
+extension CocoClientSDK.Message.MessageType : Swift.Hashable {}
+extension CocoClientSDK.Message.MessageType : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityPowerLevels.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityPowerLevels.CommandId : Swift.RawRepresentable {}
+extension CocoClientSDK.InfoResponse.State : Swift.Equatable {}
+extension CocoClientSDK.InfoResponse.State : Swift.Hashable {}
+extension CocoClientSDK.InfoResponse.State : Swift.RawRepresentable {}
+extension CocoClientSDK.States : Swift.Equatable {}
+extension CocoClientSDK.States : Swift.Hashable {}
+extension CocoClientSDK.DataType : Swift.RawRepresentable {}
+extension CocoClientSDK.Attribute.DataTypeValue : Swift.RawRepresentable {}
+extension CocoClientSDK.`Protocol` : Swift.Equatable {}
+extension CocoClientSDK.`Protocol` : Swift.Hashable {}
+extension CocoClientSDK.`Protocol` : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityStationaryPosition.AttributeId : Swift.RawRepresentable {}
+extension CocoClientSDK.CapabilityStationaryPosition.CommandId : Swift.RawRepresentable {}
