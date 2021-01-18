@@ -18,15 +18,16 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-  Swift wrappers around libcococlientsdk.so, this wrapper can be used rapid develop of COCO applications on iOS platform.
+  Swift wrappers around libcococlientsdk.so,
+  this wrapper can be used rapid develop of COCO applications on iOS platform.
   DESC
 
   s.homepage         = 'https://github.com/ashishbajaj99/cococlientsdk-swift'
   s.license          = { :type => 'Commercial', :file => 'LICENSE' }
   s.authors          = {  'rohan-elear' => 'rohansahay@elear.solutions',
-    'shrinivas-elear' => 'shrinivasgutte@elear.solutions' }
+                          'shrinivas-elear' => 'shrinivasgutte@elear.solutions' }
   s.source           = {  :git => 'https://github.com/rohan-elear/cococlientsdk-swift-framework.git',
-    :tag => "v#{s.version.to_s}" }
+                          :tag => "v#{s.version.to_s}" }
 
   s.swift_version = '4.2'
   s.platform = [:ios, :macos]
