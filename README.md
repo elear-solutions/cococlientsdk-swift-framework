@@ -1,7 +1,7 @@
 # cococlientsdk-swift-framework
 
 Swift wrappers around libcococlientsdk.so
-Swift wrapper which can be used rapid develop of COCO applications on iOS and macOS platform.
+Swift wrapper which can be used for rapid development of COCO applications on iOS and macOS platform.
 
 ## Setup
 
