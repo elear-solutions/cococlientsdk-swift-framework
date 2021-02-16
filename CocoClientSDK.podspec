@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CocoClientSDK'
-  s.version          = '0.2.45'
+  s.version          = '0.2.50'
   s.summary          = 'A library to wrap libcococlientsdk.'
 
   # This description is used to generate tags and improve search results.
