@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		bwgzNzoaVM9WC3TfyM+9x6s+Yog=
+		NKbfs1rUIN8TNBWti8UDuTjquR8=
 		</data>
 		<key>Resources/LICENSE</key>
 		<data>
@@ -15,100 +15,50 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Headers/CocoClientSDK-Swift.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DEwWLbweTT7AL9o45Myl5665T9s=
-			</data>
-			<key>hash2</key>
-			<data>
-			YNSYG1QqtqCvvHLDHuhf1khjAd13VecmC/X04o4OWJs=
-			</data>
-		</dict>
-		<key>Headers/CocoClientSDK.h</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			djFzVoolFNZJl9CSvD1N+ygeKxs=
-			</data>
-			<key>hash2</key>
-			<data>
-			Fjj/7+j6ohp2HfBnCivBvDfJz4/hLbhyquZBjvD2KhQ=
-			</data>
-		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2AvczPW4lQwEZpyeGlk8y0+KEk8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ez72bHlBqE/tUnhAt5gddLl4x4nxj067ItHmK4mm6kM=
+			3cOX1FiwaNcXRgzFWX2K5TeToON1OQeP2f4KObL97TI=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ycPmHG2eXGIEHmXYRsEPWbAtY5Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			O1Z5cUHryXlCiyeYMgDoKYbqAEwZyijfeafdlW9mv5k=
+			47jRPVBQLCUpRNkEn/t+mfH3c2bykaRzQmsTl+zE0DA=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nyfEU75b4jMTc/01f/qQyZ0OyVw=
-			</data>
 			<key>hash2</key>
 			<data>
-			MtmS9gJ2kMB5qmIsa+GrICdVyjTU8XLgxeZicmfqnNo=
+			V7a3q5I3V3D8suSvIf17HNKu+icuhU7YWZAcZpz0Cnc=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			2AvczPW4lQwEZpyeGlk8y0+KEk8=
-			</data>
 			<key>hash2</key>
 			<data>
-			Ez72bHlBqE/tUnhAt5gddLl4x4nxj067ItHmK4mm6kM=
+			3cOX1FiwaNcXRgzFWX2K5TeToON1OQeP2f4KObL97TI=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftinterface</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ycPmHG2eXGIEHmXYRsEPWbAtY5Y=
-			</data>
 			<key>hash2</key>
 			<data>
-			O1Z5cUHryXlCiyeYMgDoKYbqAEwZyijfeafdlW9mv5k=
+			47jRPVBQLCUpRNkEn/t+mfH3c2bykaRzQmsTl+zE0DA=
 			</data>
 		</dict>
 		<key>Modules/CocoClientSDK.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nyfEU75b4jMTc/01f/qQyZ0OyVw=
-			</data>
 			<key>hash2</key>
 			<data>
-			MtmS9gJ2kMB5qmIsa+GrICdVyjTU8XLgxeZicmfqnNo=
+			V7a3q5I3V3D8suSvIf17HNKu+icuhU7YWZAcZpz0Cnc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			FzeixfJnRPbsH8ZdSD+/bGNCqLM=
-			</data>
 			<key>hash2</key>
 			<data>
 			DlCKgkBXlk+t8/rQhBYiVkgHGWjjPUuM3cWb3ILWyS4=
@@ -116,21 +66,13 @@
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bwgzNzoaVM9WC3TfyM+9x6s+Yog=
-			</data>
 			<key>hash2</key>
 			<data>
-			jHLP3eePL18eIOU8IoOB6+WmKY1C0U7nkzpltTDmJ9Q=
+			La0j9BK8R5uFHcCnOHT7tHSWlHvKG165AE8ptAHiDcg=
 			</data>
 		</dict>
 		<key>Resources/LICENSE</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			BLa+WjV9pNcmIz3tr1pB5DBinOM=
-			</data>
 			<key>hash2</key>
 			<data>
 			dfMNgTc6oByA3vD2nTvAx/IXpaKOn0c1HAkge42Mpq0=
