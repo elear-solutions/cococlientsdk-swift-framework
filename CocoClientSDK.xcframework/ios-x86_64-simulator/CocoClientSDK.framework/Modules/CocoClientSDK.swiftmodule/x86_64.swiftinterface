@@ -151,7 +151,7 @@ public protocol CocoCallbackDelegate {
 }
 extension CocoCallbackDelegate {
   public func ConnectStatusCallback(network _: CocoClientSDK.Network?, coconetStatus _: CocoClientSDK.Network.State, context _: Swift.UnsafeMutableRawPointer?)
-  public func LeaveCoconetStatusCallback(coconetStatus: CocoClientSDK.StatusCode, context: Swift.UnsafeMutableRawPointer?)
+  public func LeaveCoconetStatusCallback(coconetStatus _: CocoClientSDK.StatusCode, context _: Swift.UnsafeMutableRawPointer?)
   public func ResourceCallback(resource _: CocoClientSDK.Resource?, context _: Swift.UnsafeMutableRawPointer?)
   public func ResourceCapabilityCallback(capability _: CocoClientSDK.Capability?, context _: Swift.UnsafeMutableRawPointer?)
   public func ResourceAttributeCallback(attribute _: CocoClientSDK.Attribute?, context _: Swift.UnsafeMutableRawPointer?)
@@ -1004,7 +1004,7 @@ public class CommandSetStationaryPosition : CocoClientSDK.CommandStationaryPosit
   open func setSceneActions(sceneActions: [CocoClientSDK.SceneAction])
   open func setparent(parent: CocoClientSDK.Network?)
   public func update(name: Swift.String, timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
-  public func saveRuleSetting(resourceActions: [CocoClientSDK.ResourceAction], timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
+  public func saveRuleSetting(resourceActions: [CocoClientSDK.ResourceAction], scheduleConditions: [CocoClientSDK.ScheduleCondition], resourceConditions: [CocoClientSDK.ResourceCondition], sceneActions: [CocoClientSDK.SceneAction], timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func removeResourceActions(resourceActions: [CocoClientSDK.ResourceAction], timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
@@ -1013,9 +1013,13 @@ public class CommandSetStationaryPosition : CocoClientSDK.CommandStationaryPosit
     get
   }
 }
-@_hasMissingDesignatedInitializers open class SceneAction : Swift.Hashable, Swift.Codable {
+open class SceneAction : Swift.Hashable, Swift.Codable {
+  public var sceneId: Swift.UInt16 {
+    get
+  }
   public static func == (lhs: CocoClientSDK.SceneAction, rhs: CocoClientSDK.SceneAction) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public init(sceneId: Swift.UInt16)
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   open func encode(to encoder: Swift.Encoder) throws
@@ -1027,7 +1031,7 @@ public class ResourceCondition : Swift.Hashable, Swift.Codable {
   public var ruleResCondId: Swift.UInt16 {
     get
   }
-  public var attribute: CocoClientSDK.Attribute? {
+  public var identifier: CocoClientSDK.Identifier? {
     get
   }
   public var operatorType: CocoClientSDK.ResourceCondition.OperatorType? {
@@ -1037,6 +1041,9 @@ public class ResourceCondition : Swift.Hashable, Swift.Codable {
     get
   }
   public var condDurationMs: Swift.UInt32? {
+    get
+  }
+  public var dataType: CocoClientSDK.Attribute.DataTypeValue? {
     get
   }
   public enum OperatorType : Swift.Int32, Swift.Codable {
@@ -1058,7 +1065,9 @@ public class ResourceCondition : Swift.Hashable, Swift.Codable {
   public static func == (lhs: CocoClientSDK.ResourceCondition, rhs: CocoClientSDK.ResourceCondition) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public init(ruleResCondId: Swift.UInt16)
-  open func setAttributeID(attribute: CocoClientSDK.Attribute)
+  open func setIdentifier(networkId: Swift.String, nodeId: Swift.UInt32, resourceEUI: Swift.String, capabilityId: CocoClientSDK.Capability.CapabilityId, attributeId: Swift.Int32)
+  open func setDataTypeInternal(dataType: CocoClientSDK.DataType)
+  open func setDataType(dataType: CocoClientSDK.Attribute.DataTypeValue)
   open func setOperatorId(operatorType: CocoClientSDK.ResourceCondition.OperatorType)
   open func setRuleValue(ruleValue: Any)
   open func setCondDurationMs(condDurationMs: Swift.UInt32)
@@ -1069,7 +1078,7 @@ public class ResourceCondition : Swift.Hashable, Swift.Codable {
     get
   }
 }
-@_hasMissingDesignatedInitializers open class ScheduleCondition : Swift.Hashable, Swift.Codable {
+public class ScheduleCondition : Swift.Hashable, Swift.Codable {
   public var id: Swift.UInt16 {
     get
   }
@@ -1117,19 +1126,20 @@ public class ResourceCondition : Swift.Hashable, Swift.Codable {
   }
   public static func == (lhs: CocoClientSDK.ScheduleCondition, rhs: CocoClientSDK.ScheduleCondition) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
+  public init(id: Swift.UInt16)
   open func setType(type: CocoClientSDK.ScheduleCondition.ScheduleType)
   open func setMonth(month: Swift.UInt8)
   open func setDayOfMonth(dayOfMonth: Swift.UInt8)
   open func setWeek(week: Swift.UInt8)
   open func setDayOfWeek(dayOfWeek: Swift.UInt8)
-  open func setDate(date: Swift.String)
-  open func setTime(time: Swift.String)
-  open func setExpiryTime(time: Swift.String)
+  open func setDate(date: Swift.String?)
+  open func setTime(time: Swift.String?)
+  open func setExpiryTime(time: Swift.String?)
   open func setParentRule(parentRule: CocoClientSDK.Rule)
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
-  open func encode(to encoder: Swift.Encoder) throws
-  open var hashValue: Swift.Int {
+  public func encode(to encoder: Swift.Encoder) throws
+  public var hashValue: Swift.Int {
     get
   }
 }
@@ -1399,9 +1409,17 @@ public class InfoRequest {
   public func stopMediaRecording(streamIdArray: [Swift.UInt32], commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func configMediaRecording(recordMode: CocoClientSDK.CapabilityMediaStreaming.RecordMode, size: Swift.UInt32, timeMs: Swift.UInt32, recordCoolOffTimeMs: Swift.UInt32, commandContext: Swift.UnsafeMutableRawPointer?) throws
   public func coco_client_media_stream_open(command: CocoClientSDK.MediaStreamingStart, delegate: CocoClientSDK.MediaStreamDelegate, timeoutMs: Swift.UInt32, streamContext: Swift.UnsafeMutableRawPointer?) -> Swift.Bool
+  public func coco_client_media_stream_close(streamHandle: CocoClientSDK.MediaStreamingHandle) -> Swift.Bool
+  public func coco_client_channel_data_send(channelHandle: CocoClientSDK.ChannelHandle, data: Swift.UnsafeMutablePointer<Swift.Int8>, len: Darwin.size_t) -> Darwin.ssize_t
   @objc deinit
   required public init(from decoder: Swift.Decoder) throws
   override public init(capabilityId: Swift.Int32, parent: CocoClientSDK.Resource)
+}
+@_hasMissingDesignatedInitializers public class MediaStreamingHandle {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class ChannelHandle {
+  @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityLevel : CocoClientSDK.Capability {
   public enum AttributeId : Swift.Int32, CocoClientSDK.AttributeIDProtocol, Swift.Hashable, Swift.Codable {
@@ -1548,6 +1566,42 @@ public class CommandStateCB {
   }
   public init(networkId: Swift.String, deviceNodeId: Swift.UInt32, resoureceEui: Swift.String, capabilityId: CocoClientSDK.Capability.CapabilityId, commandId: Swift.UInt8?)
   open func setState(state: CocoClientSDK.StatusCode?)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Identifier : Swift.Codable, Swift.Equatable {
+  public static func == (lhs: CocoClientSDK.Identifier, rhs: CocoClientSDK.Identifier) -> Swift.Bool
+  public var networkId: Swift.String {
+    get
+  }
+  public var nodeId: Swift.UInt32? {
+    get
+  }
+  public var resourceEUI: Swift.String? {
+    get
+  }
+  public var capabilityId: CocoClientSDK.Capability.CapabilityId {
+    get
+  }
+  public var attributeId: Swift.Int32 {
+    get
+  }
+  public static func getIdentifer(attribute: CocoClientSDK.Attribute) -> CocoClientSDK.Identifier
+  required public init(from decoder: Swift.Decoder) throws
+  @objc deinit
+  public func encode(to encoder: Swift.Encoder) throws
+}
+@_hasMissingDesignatedInitializers public class UploadTriggerURI : CocoClientSDK.Identifier {
+  public var sceneId: Swift.UInt16? {
+    get
+  }
+  public var ruleId: Swift.UInt16? {
+    get
+  }
+  public init(networkId: Swift.String, nodeId: Swift.UInt32?, resourceEUI: Swift.String?, capabilityId: CocoClientSDK.Capability.CapabilityId, attributeId: Swift.Int32, sceneId: Swift.UInt16?, ruleId: Swift.UInt16?)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SourceURI : CocoClientSDK.Identifier {
+  public init(networkId: Swift.String, nodeId: Swift.UInt32?, resourceEUI: Swift.String?, capabilityId: CocoClientSDK.Capability.CapabilityId, attributeId: Swift.Int32)
   @objc deinit
 }
 public protocol CommandIDProtocol : Swift.Decodable, Swift.Encodable {
@@ -1918,7 +1972,7 @@ open class Device : Swift.Codable {
   public func remove_resource(resource: CocoClientSDK.CommandRemoveResource, timeoutMs: Swift.UInt32 = 0, requestContext: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func force_remove_resource(resource: CocoClientSDK.CommandForceRemoveResource, timeoutMs: Swift.UInt32 = 0, requestContext: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func discover_resource(command: CocoClientSDK.CommandDiscover, timeoutMs: Swift.UInt32 = 0, requestContext _: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
-  public func config_wifi(command: CocoClientSDK.CommandConfigWIFI, timeoutMs: Swift.UInt32 = 0, requestContext _: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
+  public func config_wifi(command: CocoClientSDK.CommandConfigWIFI, timeoutMs: Swift.UInt32 = 30, requestContext _: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   @objc deinit
 }
 extension Device : Swift.Hashable {
@@ -2498,8 +2552,22 @@ public class CommandSnapshot : CocoClientSDK.Command {
   @objc deinit
 }
 public protocol MediaStreamDelegate {
+  func streamStatus(streamHandle: CocoClientSDK.MediaStreamingHandle?, channelHandle: CocoClientSDK.ChannelHandle?, channelPort: Swift.UInt16, status: CocoClientSDK.CapabilityMediaStreaming.DataStreamStatus, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContext: Swift.UnsafeMutableRawPointer?)
+  func streamReceive(streamHandle: CocoClientSDK.MediaStreamingHandle?, channelHandle: CocoClientSDK.ChannelHandle?, data: Swift.UnsafeMutableRawPointer?, len: Darwin.size_t, coconetContext: Swift.UnsafeMutableRawPointer?, streamContext: Swift.UnsafeMutableRawPointer?, channelContex: Swift.UnsafeMutableRawPointer?)
 }
 @_hasMissingDesignatedInitializers public class Value {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class COCOError {
+  public var code: Swift.Int32 {
+    get
+  }
+  public var message: Swift.String {
+    get
+  }
+  public var fieldName: Swift.String {
+    get
+  }
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class CapabilityOnOff : CocoClientSDK.Capability {
@@ -2813,7 +2881,7 @@ open class Network : Swift.Codable {
   public func connect(_ parameter: CocoClientSDK.ConnectParams = ConnectParams()) throws -> Swift.Int32
   public static func connect(with parameter: CocoClientSDK.ConnectParams, networkId: Swift.String, nodeId: Swift.UInt32, inviteURL: Swift.String) throws -> Swift.Bool
   public func disconnect() throws
-  public func leaveNetwork(context: Swift.UnsafeMutableRawPointer?) throws
+  public func leave(context: Swift.UnsafeMutableRawPointer?) throws
   public func addZone(name: Swift.String, timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func deleteZone(zone: CocoClientSDK.Zone, timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
   public func addScene(sceneName: Swift.String, timeout: Swift.UInt32 = CocoClient.timeout, context: Swift.UnsafeMutableRawPointer?) throws -> Swift.Bool
@@ -2845,6 +2913,9 @@ extension Network : Swift.Equatable {
     get
   }
   public var statusCode: CocoClientSDK.StatusCode {
+    get
+  }
+  public var error: CocoClientSDK.COCOError? {
     get
   }
   @objc deinit
@@ -3144,7 +3215,7 @@ open class Attribute : Swift.Codable {
   public var description: Swift.String? {
     get
   }
-  public var dataType: CocoClientSDK.Attribute.DataTypeValue? {
+  public var dataType: CocoClientSDK.Attribute.DataTypeValue {
     get
   }
   public var arrayLength: Swift.Int? {
@@ -3181,10 +3252,10 @@ open class Attribute : Swift.Codable {
     case COCO_DATA_TYPE_MAX
     case COCO_DATA_TYPE_UBOUND
     public typealias RawValue = Swift.Int32
+    public init?(rawValue: Swift.Int32)
     public var rawValue: Swift.Int32 {
       get
     }
-    public init?(rawValue: Swift.Int32)
   }
   open func encode(to encoder: Swift.Encoder) throws
   public init(attributeId: Swift.Int32, parent: CocoClientSDK.Capability)
@@ -3228,40 +3299,6 @@ public class CommandImageCtrl : CocoClientSDK.Command {
   }
   public init(commandID: CocoClientSDK.CapabilityImageCtrl.CommandId)
   override public init(cmdID: Swift.Int32)
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class Identifier : Swift.Codable {
-  public var networkId: Swift.String {
-    get
-  }
-  public var nodeId: Swift.UInt32? {
-    get
-  }
-  public var resourceEUI: Swift.String? {
-    get
-  }
-  public var capabilityId: CocoClientSDK.Capability.CapabilityId {
-    get
-  }
-  public var attributeId: Swift.Int32 {
-    get
-  }
-  required public init(from decoder: Swift.Decoder) throws
-  @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-}
-@_hasMissingDesignatedInitializers public class UploadTriggerURI : CocoClientSDK.Identifier {
-  public var sceneId: Swift.UInt16? {
-    get
-  }
-  public var ruleId: Swift.UInt16? {
-    get
-  }
-  public init(networkId: Swift.String, nodeId: Swift.UInt32?, resourceEUI: Swift.String?, capabilityId: CocoClientSDK.Capability.CapabilityId, attributeId: Swift.Int32, sceneId: Swift.UInt16?, ruleId: Swift.UInt16?)
-  @objc deinit
-}
-@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class SourceURI : CocoClientSDK.Identifier {
-  public init(networkId: Swift.String, nodeId: Swift.UInt32?, resourceEUI: Swift.String?, capabilityId: CocoClientSDK.Capability.CapabilityId, attributeId: Swift.Int32)
   @objc deinit
 }
 public enum CacheManager {
