@@ -1471,7 +1471,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -1534,7 +1534,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -7541,7 +7541,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -8260,12 +8260,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -8292,7 +8292,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -9444,7 +9444,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -10311,12 +10311,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -10343,7 +10343,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -10470,7 +10470,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11300,12 +11300,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -11332,7 +11332,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -11430,7 +11430,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -11501,7 +11501,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -16258,7 +16258,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -16495,7 +16495,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -16652,7 +16652,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -17052,7 +17052,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -17561,7 +17561,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -17855,7 +17855,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -18038,7 +18038,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -18315,7 +18315,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -18592,7 +18592,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -21558,7 +21558,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -21867,7 +21867,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -22227,7 +22227,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -23081,7 +23081,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -23416,7 +23416,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -23525,12 +23525,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -23563,7 +23563,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -24847,7 +24847,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "StateEventDelegate",
-                "printedName": "IOTClientSDK.StateEventDelegate",
+                "printedName": "any IOTClientSDK.StateEventDelegate",
                 "usr": "s:12IOTClientSDK18StateEventDelegateP"
               },
               {
@@ -25096,12 +25096,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CocoCallbackDelegate?",
+                "printedName": "(any IOTClientSDK.CocoCallbackDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CocoCallbackDelegate",
-                    "printedName": "IOTClientSDK.CocoCallbackDelegate",
+                    "printedName": "any IOTClientSDK.CocoCallbackDelegate",
                     "usr": "s:12IOTClientSDK20CocoCallbackDelegateP"
                   }
                 ],
@@ -25129,12 +25129,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.CocoCallbackDelegate?",
+                    "printedName": "(any IOTClientSDK.CocoCallbackDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CocoCallbackDelegate",
-                        "printedName": "IOTClientSDK.CocoCallbackDelegate",
+                        "printedName": "any IOTClientSDK.CocoCallbackDelegate",
                         "usr": "s:12IOTClientSDK20CocoCallbackDelegateP"
                       }
                     ],
@@ -25162,12 +25162,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.CocoCallbackDelegate?",
+                    "printedName": "(any IOTClientSDK.CocoCallbackDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CocoCallbackDelegate",
-                        "printedName": "IOTClientSDK.CocoCallbackDelegate",
+                        "printedName": "any IOTClientSDK.CocoCallbackDelegate",
                         "usr": "s:12IOTClientSDK20CocoCallbackDelegateP"
                       }
                     ],
@@ -29789,7 +29789,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -29967,7 +29967,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -30783,7 +30783,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -31092,7 +31092,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -31638,7 +31638,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -32027,7 +32027,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -32314,7 +32314,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -34215,7 +34215,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -34251,7 +34251,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -45133,7 +45133,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -45276,7 +45276,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -45697,7 +45697,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -45942,7 +45942,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -46178,7 +46178,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -46214,7 +46214,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -47754,7 +47754,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -48080,7 +48080,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -48334,7 +48334,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "SnapshotDelegate",
-                    "printedName": "IOTClientSDK.SnapshotDelegate",
+                    "printedName": "any IOTClientSDK.SnapshotDelegate",
                     "usr": "s:12IOTClientSDK16SnapshotDelegateP"
                   },
                   {
@@ -48368,7 +48368,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -48698,7 +48698,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -48751,7 +48751,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "SnapshotDelegate",
-                "printedName": "IOTClientSDK.SnapshotDelegate",
+                "printedName": "any IOTClientSDK.SnapshotDelegate",
                 "usr": "s:12IOTClientSDK16SnapshotDelegateP"
               },
               {
@@ -48800,7 +48800,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -50667,7 +50667,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -52959,7 +52959,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -52987,7 +52987,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -53065,7 +53065,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -53184,7 +53184,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -53678,7 +53678,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -53800,7 +53800,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -53965,7 +53965,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -56041,7 +56041,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -56069,7 +56069,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -57718,7 +57718,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -59608,7 +59608,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -59948,12 +59948,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -59980,7 +59980,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -60576,7 +60576,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -63545,7 +63545,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -63669,7 +63669,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -63787,7 +63787,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -63909,12 +63909,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -63941,7 +63941,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -65030,7 +65030,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -65058,7 +65058,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -65316,7 +65316,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -65344,7 +65344,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -65708,7 +65708,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -65736,7 +65736,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -65862,7 +65862,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -68222,7 +68222,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -68437,7 +68437,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -68718,7 +68718,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -69056,7 +69056,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -69322,7 +69322,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -69840,7 +69840,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -70085,12 +70085,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -70117,7 +70117,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -70841,7 +70841,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -71708,12 +71708,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -71740,7 +71740,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -71873,7 +71873,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -74619,7 +74619,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -75459,7 +75459,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -76288,7 +76288,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -76710,7 +76710,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -77107,7 +77107,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -77413,12 +77413,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -77445,7 +77445,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -77579,7 +77579,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -78412,12 +78412,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -78444,7 +78444,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -79058,12 +79058,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.Creator?",
+                "printedName": "(any IOTClientSDK.Creator)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Creator",
-                    "printedName": "IOTClientSDK.Creator",
+                    "printedName": "any IOTClientSDK.Creator",
                     "usr": "s:12IOTClientSDK7CreatorP"
                   }
                 ],
@@ -79091,12 +79091,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.Creator?",
+                    "printedName": "(any IOTClientSDK.Creator)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Creator",
-                        "printedName": "IOTClientSDK.Creator",
+                        "printedName": "any IOTClientSDK.Creator",
                         "usr": "s:12IOTClientSDK7CreatorP"
                       }
                     ],
@@ -79124,12 +79124,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.Creator?",
+                    "printedName": "(any IOTClientSDK.Creator)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Creator",
-                        "printedName": "IOTClientSDK.Creator",
+                        "printedName": "any IOTClientSDK.Creator",
                         "usr": "s:12IOTClientSDK7CreatorP"
                       }
                     ],
@@ -79202,13 +79202,13 @@
               {
                 "kind": "TypeNominal",
                 "name": "OAuthDelegate",
-                "printedName": "IOTClientSDK.OAuthDelegate",
+                "printedName": "any IOTClientSDK.OAuthDelegate",
                 "usr": "s:12IOTClientSDK13OAuthDelegateP"
               },
               {
                 "kind": "TypeNominal",
                 "name": "CocoCallbackDelegate",
-                "printedName": "IOTClientSDK.CocoCallbackDelegate",
+                "printedName": "any IOTClientSDK.CocoCallbackDelegate",
                 "usr": "s:12IOTClientSDK20CocoCallbackDelegateP"
               },
               {
@@ -79235,12 +79235,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.Creator?",
+                "printedName": "(any IOTClientSDK.Creator)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Creator",
-                    "printedName": "IOTClientSDK.Creator",
+                    "printedName": "any IOTClientSDK.Creator",
                     "usr": "s:12IOTClientSDK7CreatorP"
                   }
                 ],
@@ -79692,12 +79692,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.OAuthDelegate?",
+                "printedName": "(any IOTClientSDK.OAuthDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "OAuthDelegate",
-                    "printedName": "IOTClientSDK.OAuthDelegate",
+                    "printedName": "any IOTClientSDK.OAuthDelegate",
                     "usr": "s:12IOTClientSDK13OAuthDelegateP"
                   }
                 ],
@@ -79725,12 +79725,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.OAuthDelegate?",
+                    "printedName": "(any IOTClientSDK.OAuthDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OAuthDelegate",
-                        "printedName": "IOTClientSDK.OAuthDelegate",
+                        "printedName": "any IOTClientSDK.OAuthDelegate",
                         "usr": "s:12IOTClientSDK13OAuthDelegateP"
                       }
                     ],
@@ -79762,12 +79762,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.OAuthDelegate?",
+                    "printedName": "(any IOTClientSDK.OAuthDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OAuthDelegate",
-                        "printedName": "IOTClientSDK.OAuthDelegate",
+                        "printedName": "any IOTClientSDK.OAuthDelegate",
                         "usr": "s:12IOTClientSDK13OAuthDelegateP"
                       }
                     ],
@@ -79819,12 +79819,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CocoCallbackDelegate?",
+                "printedName": "(any IOTClientSDK.CocoCallbackDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CocoCallbackDelegate",
-                    "printedName": "IOTClientSDK.CocoCallbackDelegate",
+                    "printedName": "any IOTClientSDK.CocoCallbackDelegate",
                     "usr": "s:12IOTClientSDK20CocoCallbackDelegateP"
                   }
                 ],
@@ -79852,12 +79852,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.CocoCallbackDelegate?",
+                    "printedName": "(any IOTClientSDK.CocoCallbackDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CocoCallbackDelegate",
-                        "printedName": "IOTClientSDK.CocoCallbackDelegate",
+                        "printedName": "any IOTClientSDK.CocoCallbackDelegate",
                         "usr": "s:12IOTClientSDK20CocoCallbackDelegateP"
                       }
                     ],
@@ -79889,12 +79889,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.CocoCallbackDelegate?",
+                    "printedName": "(any IOTClientSDK.CocoCallbackDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CocoCallbackDelegate",
-                        "printedName": "IOTClientSDK.CocoCallbackDelegate",
+                        "printedName": "any IOTClientSDK.CocoCallbackDelegate",
                         "usr": "s:12IOTClientSDK20CocoCallbackDelegateP"
                       }
                     ],
@@ -79946,12 +79946,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.SnapshotDelegate?",
+                "printedName": "(any IOTClientSDK.SnapshotDelegate)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "SnapshotDelegate",
-                    "printedName": "IOTClientSDK.SnapshotDelegate",
+                    "printedName": "any IOTClientSDK.SnapshotDelegate",
                     "usr": "s:12IOTClientSDK16SnapshotDelegateP"
                   }
                 ],
@@ -79979,12 +79979,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.SnapshotDelegate?",
+                    "printedName": "(any IOTClientSDK.SnapshotDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SnapshotDelegate",
-                        "printedName": "IOTClientSDK.SnapshotDelegate",
+                        "printedName": "any IOTClientSDK.SnapshotDelegate",
                         "usr": "s:12IOTClientSDK16SnapshotDelegateP"
                       }
                     ],
@@ -80016,12 +80016,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Optional",
-                    "printedName": "IOTClientSDK.SnapshotDelegate?",
+                    "printedName": "(any IOTClientSDK.SnapshotDelegate)?",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "SnapshotDelegate",
-                        "printedName": "IOTClientSDK.SnapshotDelegate",
+                        "printedName": "any IOTClientSDK.SnapshotDelegate",
                         "usr": "s:12IOTClientSDK16SnapshotDelegateP"
                       }
                     ],
@@ -80792,7 +80792,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -82259,7 +82259,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -82474,7 +82474,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -82793,7 +82793,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -83084,12 +83084,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -83116,7 +83116,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -84169,7 +84169,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -85112,7 +85112,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -85236,7 +85236,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -85354,7 +85354,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -85476,12 +85476,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -85508,7 +85508,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -85642,7 +85642,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -87227,7 +87227,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -87698,7 +87698,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -88237,7 +88237,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -88756,7 +88756,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -89075,7 +89075,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -89472,12 +89472,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -89504,7 +89504,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -90853,7 +90853,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -90956,7 +90956,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -94508,7 +94508,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -95739,7 +95739,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -95802,7 +95802,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -97638,7 +97638,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -98766,7 +98766,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -98890,7 +98890,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -99008,7 +99008,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -99130,12 +99130,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -99162,7 +99162,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -99724,7 +99724,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -99754,12 +99754,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -99787,7 +99787,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -100035,7 +100035,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -102321,7 +102321,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -102550,7 +102550,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -102578,7 +102578,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -103335,7 +103335,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -103451,7 +103451,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -103487,12 +103487,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -104069,7 +104069,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -104132,7 +104132,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -106734,12 +106734,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -106792,7 +106792,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -108028,7 +108028,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -108740,7 +108740,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -111305,7 +111305,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -111333,7 +111333,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -112282,7 +112282,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -112307,7 +112307,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -112413,7 +112413,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -113280,12 +113280,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -113312,7 +113312,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -114606,7 +114606,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -116579,7 +116579,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -116607,7 +116607,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -118368,7 +118368,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -118396,7 +118396,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Encoder",
-                    "printedName": "Swift.Encoder",
+                    "printedName": "any Swift.Encoder",
                     "usr": "s:s7EncoderP"
                   }
                 ],
@@ -118482,7 +118482,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -118638,7 +118638,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -118873,12 +118873,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -118905,7 +118905,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -119871,7 +119871,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -120864,7 +120864,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -121399,7 +121399,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -121716,7 +121716,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -121834,7 +121834,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -121952,7 +121952,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -122074,12 +122074,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -122106,7 +122106,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -122227,7 +122227,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -122381,7 +122381,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -123018,7 +123018,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -123184,7 +123184,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -124099,7 +124099,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -125049,7 +125049,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -125622,7 +125622,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -126295,12 +126295,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -126327,7 +126327,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -130592,7 +130592,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -131644,12 +131644,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -131676,7 +131676,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -133677,7 +133677,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -133705,7 +133705,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -133802,12 +133802,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[IOTClientSDK.CommandIDProtocol]",
+                "printedName": "[any IOTClientSDK.CommandIDProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -133816,12 +133816,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[IOTClientSDK.AttributeIDProtocol]",
+                "printedName": "[any IOTClientSDK.AttributeIDProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AttributeIDProtocol",
-                    "printedName": "IOTClientSDK.AttributeIDProtocol",
+                    "printedName": "any IOTClientSDK.AttributeIDProtocol",
                     "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
                   }
                 ],
@@ -133937,12 +133937,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[IOTClientSDK.CommandIDProtocol]",
+                "printedName": "[any IOTClientSDK.CommandIDProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -133970,12 +133970,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[IOTClientSDK.CommandIDProtocol]",
+                    "printedName": "[any IOTClientSDK.CommandIDProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CommandIDProtocol",
-                        "printedName": "IOTClientSDK.CommandIDProtocol",
+                        "printedName": "any IOTClientSDK.CommandIDProtocol",
                         "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                       }
                     ],
@@ -134003,12 +134003,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[IOTClientSDK.CommandIDProtocol]",
+                    "printedName": "[any IOTClientSDK.CommandIDProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "CommandIDProtocol",
-                        "printedName": "IOTClientSDK.CommandIDProtocol",
+                        "printedName": "any IOTClientSDK.CommandIDProtocol",
                         "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                       }
                     ],
@@ -134052,12 +134052,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Array",
-                "printedName": "[IOTClientSDK.AttributeIDProtocol]",
+                "printedName": "[any IOTClientSDK.AttributeIDProtocol]",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "AttributeIDProtocol",
-                    "printedName": "IOTClientSDK.AttributeIDProtocol",
+                    "printedName": "any IOTClientSDK.AttributeIDProtocol",
                     "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
                   }
                 ],
@@ -134085,12 +134085,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[IOTClientSDK.AttributeIDProtocol]",
+                    "printedName": "[any IOTClientSDK.AttributeIDProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AttributeIDProtocol",
-                        "printedName": "IOTClientSDK.AttributeIDProtocol",
+                        "printedName": "any IOTClientSDK.AttributeIDProtocol",
                         "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
                       }
                     ],
@@ -134118,12 +134118,12 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[IOTClientSDK.AttributeIDProtocol]",
+                    "printedName": "[any IOTClientSDK.AttributeIDProtocol]",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "AttributeIDProtocol",
-                        "printedName": "IOTClientSDK.AttributeIDProtocol",
+                        "printedName": "any IOTClientSDK.AttributeIDProtocol",
                         "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
                       }
                     ],
@@ -134326,7 +134326,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -135269,7 +135269,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -135397,12 +135397,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -135429,7 +135429,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -136534,7 +136534,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -137514,7 +137514,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -137638,7 +137638,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -137756,7 +137756,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -137874,7 +137874,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -137996,12 +137996,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -138028,7 +138028,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -141297,7 +141297,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -141622,7 +141622,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -141895,7 +141895,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -142147,7 +142147,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -142183,7 +142183,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -144100,7 +144100,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -144930,12 +144930,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -144962,7 +144962,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -145893,7 +145893,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(storageNodeId:resourceEui:)",
+                "printedName": "init(nodeId:resourceEui:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -145915,8 +145915,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Id11resourceEuiAEs6UInt32V_SStcfc",
-                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Id11resourceEuiAEs6UInt32V_SStcfc",
+                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeId11resourceEuiAEs6UInt32V_SStcfc",
+                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeId11resourceEuiAEs6UInt32V_SStcfc",
                 "moduleName": "IOTClientSDK",
                 "declAttributes": [
                   "AccessControl",
@@ -145938,7 +145938,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -145956,8 +145956,8 @@
               },
               {
                 "kind": "Var",
-                "name": "storageNodeId",
-                "printedName": "storageNodeId",
+                "name": "nodeId",
+                "printedName": "nodeId",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -145967,8 +145967,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32Vvp",
-                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32Vvp",
+                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32Vvp",
+                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32Vvp",
                 "moduleName": "IOTClientSDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -145990,8 +145990,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32Vvg",
-                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32Vvg",
+                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32Vvg",
+                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32Vvg",
                     "moduleName": "IOTClientSDK",
                     "implicit": true,
                     "isOpen": true,
@@ -146015,8 +146015,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32Vvs",
-                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32Vvs",
+                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32Vvs",
+                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32Vvs",
                     "moduleName": "IOTClientSDK",
                     "implicit": true,
                     "isOpen": true,
@@ -146034,8 +146034,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32VvM",
-                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC07storageG2Ids6UInt32VvM",
+                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32VvM",
+                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC6nodeIds6UInt32VvM",
                     "moduleName": "IOTClientSDK",
                     "implicit": true,
                     "isOpen": true,
@@ -146259,7 +146259,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(storageNodeId:resourceEui:)",
+                "printedName": "init(nodeId:resourceEui:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -146281,8 +146281,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Id11resourceEuiAEs6UInt32V_SStcfc",
-                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Id11resourceEuiAEs6UInt32V_SStcfc",
+                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeId11resourceEuiAEs6UInt32V_SStcfc",
+                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeId11resourceEuiAEs6UInt32V_SStcfc",
                 "moduleName": "IOTClientSDK",
                 "declAttributes": [
                   "AccessControl",
@@ -146304,7 +146304,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -146322,8 +146322,8 @@
               },
               {
                 "kind": "Var",
-                "name": "storageNodeId",
-                "printedName": "storageNodeId",
+                "name": "nodeId",
+                "printedName": "nodeId",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -146333,8 +146333,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32Vvp",
-                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32Vvp",
+                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32Vvp",
+                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32Vvp",
                 "moduleName": "IOTClientSDK",
                 "isOpen": true,
                 "declAttributes": [
@@ -146356,8 +146356,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32Vvg",
-                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32Vvg",
+                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32Vvg",
+                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32Vvg",
                     "moduleName": "IOTClientSDK",
                     "implicit": true,
                     "isOpen": true,
@@ -146381,8 +146381,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32Vvs",
-                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32Vvs",
+                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32Vvs",
+                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32Vvs",
                     "moduleName": "IOTClientSDK",
                     "implicit": true,
                     "isOpen": true,
@@ -146400,8 +146400,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32VvM",
-                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC07storageG2Ids6UInt32VvM",
+                    "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32VvM",
+                    "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC6nodeIds6UInt32VvM",
                     "moduleName": "IOTClientSDK",
                     "implicit": true,
                     "isOpen": true,
@@ -146496,6 +146496,64 @@
                     "accessorKind": "_modify"
                   }
                 ]
+              },
+              {
+                "kind": "Function",
+                "name": "getCStructure",
+                "printedName": "getCStructure()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UnsafeMutablePointer",
+                    "printedName": "Swift.UnsafeMutablePointer<CIOTClientSDK.coco_std_cmd_storage_config_t>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "coco_std_cmd_storage_config_t",
+                        "printedName": "CIOTClientSDK.coco_std_cmd_storage_config_t",
+                        "usr": "c:@SA@coco_std_cmd_storage_config_t"
+                      }
+                    ],
+                    "usr": "s:Sp"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC13getCStructureSpySo29coco_std_cmd_storage_config_taGyF",
+                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC13getCStructureSpySo29coco_std_cmd_storage_config_taGyF",
+                "moduleName": "IOTClientSDK",
+                "isOpen": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "getCStructure",
+                "printedName": "getCStructure()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.UnsafeMutableRawPointer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UnsafeMutableRawPointer",
+                        "printedName": "Swift.UnsafeMutableRawPointer",
+                        "usr": "s:Sv"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC13getCStructureSvSgyF",
+                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC13getCStructureSvSgyF",
+                "moduleName": "IOTClientSDK",
+                "overriding": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Override"
+                ],
+                "funcSelfKind": "NonMutating"
               },
               {
                 "kind": "Constructor",
@@ -146605,7 +146663,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -146728,7 +146786,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -146764,7 +146822,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -146983,7 +147041,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -149343,7 +149401,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -149564,7 +149622,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -150308,7 +150366,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -150928,7 +150986,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -151362,7 +151420,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -151700,7 +151758,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -151974,7 +152032,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -152559,7 +152617,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -152677,7 +152735,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -152795,7 +152853,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -152926,7 +152984,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -153257,7 +153315,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -153394,7 +153452,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -153828,7 +153886,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -154224,7 +154282,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -154553,7 +154611,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -154589,12 +154647,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -156970,7 +157028,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -156998,7 +157056,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -157124,7 +157182,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -158474,7 +158532,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -158598,7 +158656,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -158716,7 +158774,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -158841,7 +158899,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -159135,12 +159193,12 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "IOTClientSDK.CommandIDProtocol?",
+                "printedName": "(any IOTClientSDK.CommandIDProtocol)?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "CommandIDProtocol",
-                    "printedName": "IOTClientSDK.CommandIDProtocol",
+                    "printedName": "any IOTClientSDK.CommandIDProtocol",
                     "usr": "s:12IOTClientSDK17CommandIDProtocolP"
                   }
                 ],
@@ -159167,7 +159225,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "AttributeIDProtocol",
-                "printedName": "IOTClientSDK.AttributeIDProtocol",
+                "printedName": "any IOTClientSDK.AttributeIDProtocol",
                 "usr": "s:12IOTClientSDK19AttributeIDProtocolP"
               },
               {
@@ -160228,7 +160286,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -160256,7 +160314,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -165037,7 +165095,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -165065,7 +165123,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -165276,7 +165334,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -166206,7 +166264,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -166472,7 +166530,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -166543,7 +166601,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -168856,7 +168914,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Decoder",
-                "printedName": "Swift.Decoder",
+                "printedName": "any Swift.Decoder",
                 "usr": "s:s7DecoderP"
               }
             ],
@@ -168913,7 +168971,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "Encoder",
-                "printedName": "Swift.Encoder",
+                "printedName": "any Swift.Encoder",
                 "usr": "s:s7EncoderP"
               }
             ],
@@ -174810,7 +174868,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -175058,7 +175116,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -175335,7 +175393,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -175602,7 +175660,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -175916,7 +175974,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -176282,7 +176340,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -176487,7 +176545,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -176698,7 +176756,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -176977,7 +177035,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -177256,7 +177314,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -177557,7 +177615,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -177872,7 +177930,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -178604,7 +178662,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -178987,7 +179045,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -179264,7 +179322,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -179529,7 +179587,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -179896,7 +179954,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -180210,7 +180268,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -180576,7 +180634,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -180781,7 +180839,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -180986,7 +181044,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -181191,7 +181249,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -181394,7 +181452,7 @@
                   {
                     "kind": "TypeNominal",
                     "name": "Decoder",
-                    "printedName": "Swift.Decoder",
+                    "printedName": "any Swift.Decoder",
                     "usr": "s:s7DecoderP"
                   }
                 ],
@@ -182545,7 +182603,7 @@
               {
                 "kind": "TypeNominal",
                 "name": "ExistentialMetatype",
-                "printedName": "AnyObject.Type",
+                "printedName": "any AnyObject.Type",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -182795,6 +182853,7 @@
         "mangledName": "$sSS",
         "moduleName": "Swift",
         "declAttributes": [
+          "EagerMove",
           "Frozen"
         ],
         "isExternal": true,
@@ -183441,6 +183500,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_CustomPlaygroundQuickLookable",
             "printedName": "_CustomPlaygroundQuickLookable",
             "usr": "s:s30_CustomPlaygroundQuickLookableP",
@@ -183452,13 +183518,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       },
@@ -183583,6 +183642,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_CustomPlaygroundQuickLookable",
             "printedName": "_CustomPlaygroundQuickLookable",
             "usr": "s:s30_CustomPlaygroundQuickLookableP",
@@ -183594,13 +183660,6 @@
             "printedName": "CVarArg",
             "usr": "s:s7CVarArgP",
             "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
           }
         ]
       }
@@ -203393,14 +203452,14 @@
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageCofig.swift",
       "kind": "StringLiteral",
-      "offset": 3985,
+      "offset": 3929,
       "length": 22,
       "value": "\"IOTClientSDK.DeconfigureStorageNode\""
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageCofig.swift",
       "kind": "StringLiteral",
-      "offset": 4547,
+      "offset": 5116,
       "length": 19,
       "value": "\"IOTClientSDK.CommandStorageCofig\""
     },

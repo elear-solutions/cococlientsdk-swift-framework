@@ -1,7 +1,7 @@
 framework module IOTClientSDK {
   umbrella header "IOTClientSDK.h"
-
   export *
+
   module * { export * }
 }
 

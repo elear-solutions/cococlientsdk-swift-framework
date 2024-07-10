@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/IOTClientSDK-Swift.h</key>
 		<data>
-		RFPZlSJ/NCKqvZj6H3CShpZgqTk=
+		UIlrm52vQuXN/5ba5/7ECf+x6Mw=
 		</data>
 		<key>Headers/IOTClientSDK.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		743yCsU9O/NLNxDnNwN/vGNbzk4=
+		OKBzkVTaH3KJZACodW67YHL0OBQ=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -26,27 +26,27 @@
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		sMza/BwtgNxzx1Q/00kedYrIGuo=
+		T38u4BvraiKaKcmhg9Or9pTxLy4=
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		GeTxOwGLEU6WJHmzIUDYQGt373A=
+		abr2dwho8RZI48DVMYHjV6kJ6hM=
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		3bwvCCZrNOBNphvwuHJcPWL3Xmg=
+		gNJbuQiF2HE7yvPh+/qw3EQ3UEY=
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		GeTxOwGLEU6WJHmzIUDYQGt373A=
+		abr2dwho8RZI48DVMYHjV6kJ6hM=
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nby0cNgu/+q9h/E1iUDi1hx3SmY=
+		+JdUvkvuYY7/Af7VrwQwmlZtKCY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		OrdO6f8a8J1zK22f2YVnXQlluFc=
+		Pqcj+0srZxTggnH/aXgMiCGRriw=
 		</data>
 		<key>README.md</key>
 		<data>
@@ -59,7 +59,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			96ucly0+ssmNaUelmFPPh9buwvAC2KvM15KfE2qcgO4=
+			j0wr0KS/yvcTvT8nHHB6e8xP0iWNdL81ksXHxelWmME=
 			</data>
 		</dict>
 		<key>Headers/IOTClientSDK.h</key>
@@ -87,42 +87,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9ZaEzyk7SG29h9RVO5ZspVvasS63niImWMwDShOtiOQ=
+			ovM0tyVQsTnosCbU9DobvxywnUU2DvZvypKkZjgKgYY=
 			</data>
 		</dict>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hb7+2MabPX7pYAdhRyrfC244axY1B25WoC8wdFOkl1A=
+			KYZFNn60dOsZ6fMywfeHyJ0Qf6jAGbSrrmntX87JfR8=
 			</data>
 		</dict>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0kr/RBH59VI8rMqFKs97MEjRmy9fsFaNhttFF8llZRA=
+			zblIgYK22XrI7chbK1eOnbAlhBiPGpZKeEk1ko5Q+vE=
 			</data>
 		</dict>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Hb7+2MabPX7pYAdhRyrfC244axY1B25WoC8wdFOkl1A=
+			KYZFNn60dOsZ6fMywfeHyJ0Qf6jAGbSrrmntX87JfR8=
 			</data>
 		</dict>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			toRhEQk2gaD8GXSme70LZHFOIvRaHm56Qy9O8Sy0alY=
+			mXPuV6Up9Dso+46eAOa4rPJZn2Mh/6dnspbMfgaGyVg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qGb6e2T+apOUqZoKSgG/7D86C/1VZKXZ5d9h5IEYFwI=
+			QU/HgtgtktPJpjJVucQDyt72Wd3Migotj99twMn+6Ew=
 			</data>
 		</dict>
 		<key>README.md</key>
