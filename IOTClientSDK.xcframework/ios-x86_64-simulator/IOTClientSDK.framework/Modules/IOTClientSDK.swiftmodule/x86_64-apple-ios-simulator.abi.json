@@ -20141,6 +20141,46 @@
               },
               {
                 "kind": "Var",
+                "name": "COCO_STD_ATTR_STORAGE_LIST_OF_AUTHORISED_SOURCES",
+                "printedName": "COCO_STD_ATTR_STORAGE_LIST_OF_AUTHORISED_SOURCES",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(IOTClientSDK.CapabilityStorageControl.AttributeId.Type) -> IOTClientSDK.CapabilityStorageControl.AttributeId",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AttributeId",
+                        "printedName": "IOTClientSDK.CapabilityStorageControl.AttributeId",
+                        "usr": "s:12IOTClientSDK24CapabilityStorageControlC11AttributeIdO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "IOTClientSDK.CapabilityStorageControl.AttributeId.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AttributeId",
+                            "printedName": "IOTClientSDK.CapabilityStorageControl.AttributeId",
+                            "usr": "s:12IOTClientSDK24CapabilityStorageControlC11AttributeIdO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:12IOTClientSDK24CapabilityStorageControlC11AttributeIdO48COCO_STD_ATTR_STORAGE_LIST_OF_AUTHORISED_SOURCESyA2EmF",
+                "mangledName": "$s12IOTClientSDK24CapabilityStorageControlC11AttributeIdO48COCO_STD_ATTR_STORAGE_LIST_OF_AUTHORISED_SOURCESyA2EmF",
+                "moduleName": "IOTClientSDK",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "COCO_STD_ATTR_STORAGE_CONTROL_MAX",
                 "printedName": "COCO_STD_ATTR_STORAGE_CONTROL_MAX",
                 "children": [
@@ -20174,10 +20214,7 @@
                 "declKind": "EnumElement",
                 "usr": "s:12IOTClientSDK24CapabilityStorageControlC11AttributeIdO33COCO_STD_ATTR_STORAGE_CONTROL_MAXyA2EmF",
                 "mangledName": "$s12IOTClientSDK24CapabilityStorageControlC11AttributeIdO33COCO_STD_ATTR_STORAGE_CONTROL_MAXyA2EmF",
-                "moduleName": "IOTClientSDK",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
+                "moduleName": "IOTClientSDK"
               },
               {
                 "kind": "Var",
@@ -186310,13 +186347,20 @@
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
       "offset": 3458,
-      "length": 33,
+      "length": 48,
       "value": "14"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3540,
+      "offset": 3516,
+      "length": 33,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3598,
       "length": 6,
       "value": "0x7FFF"
     },
@@ -186429,13 +186473,20 @@
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
       "offset": 3458,
-      "length": 33,
+      "length": 48,
       "value": "14"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3540,
+      "offset": 3516,
+      "length": 33,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3598,
       "length": 6,
       "value": "0x7FFF"
     },
@@ -186548,335 +186599,342 @@
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
       "offset": 3458,
-      "length": 33,
+      "length": 48,
       "value": "14"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3540,
+      "offset": 3516,
+      "length": 33,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3598,
       "length": 6,
       "value": "0x7FFF"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3858,
+      "offset": 3916,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3870,
+      "offset": 3928,
       "length": 27,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3907,
+      "offset": 3965,
       "length": 29,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3946,
+      "offset": 4004,
       "length": 33,
       "value": "2"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3989,
+      "offset": 4047,
       "length": 50,
       "value": "3"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4049,
+      "offset": 4107,
       "length": 32,
       "value": "4"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4129,
+      "offset": 4187,
       "length": 11,
       "value": "0x7FFFFFFF"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3858,
+      "offset": 3916,
       "length": 1,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3870,
+      "offset": 3928,
       "length": 27,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3907,
+      "offset": 3965,
       "length": 29,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3946,
+      "offset": 4004,
       "length": 33,
       "value": "2"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3989,
+      "offset": 4047,
       "length": 50,
       "value": "3"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4049,
+      "offset": 4107,
       "length": 32,
       "value": "4"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4129,
+      "offset": 4187,
       "length": 11,
       "value": "0x7FFFFFFF"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3858,
+      "offset": 3916,
       "length": 1,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3870,
+      "offset": 3928,
       "length": 27,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3907,
+      "offset": 3965,
       "length": 29,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3946,
+      "offset": 4004,
       "length": 33,
       "value": "2"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 3989,
+      "offset": 4047,
       "length": 50,
       "value": "3"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4049,
+      "offset": 4107,
       "length": 32,
       "value": "4"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4129,
+      "offset": 4187,
       "length": 11,
       "value": "0x7FFFFFFF"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4411,
+      "offset": 4469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4422,
+      "offset": 4480,
       "length": 36,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4468,
+      "offset": 4526,
       "length": 36,
       "value": "2"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4514,
+      "offset": 4572,
       "length": 36,
       "value": "3"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4560,
+      "offset": 4618,
       "length": 38,
       "value": "4"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4608,
+      "offset": 4666,
       "length": 32,
       "value": "5"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4689,
+      "offset": 4747,
       "length": 6,
       "value": "0xFFFF"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4411,
+      "offset": 4469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4422,
+      "offset": 4480,
       "length": 36,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4468,
+      "offset": 4526,
       "length": 36,
       "value": "2"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4514,
+      "offset": 4572,
       "length": 36,
       "value": "3"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4560,
+      "offset": 4618,
       "length": 38,
       "value": "4"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4608,
+      "offset": 4666,
       "length": 32,
       "value": "5"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4689,
+      "offset": 4747,
       "length": 6,
       "value": "0xFFFF"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4411,
+      "offset": 4469,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4422,
+      "offset": 4480,
       "length": 36,
       "value": "1"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4468,
+      "offset": 4526,
       "length": 36,
       "value": "2"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4514,
+      "offset": 4572,
       "length": 36,
       "value": "3"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4560,
+      "offset": 4618,
       "length": 38,
       "value": "4"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4608,
+      "offset": 4666,
       "length": 32,
       "value": "5"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "IntegerLiteral",
-      "offset": 4689,
+      "offset": 4747,
       "length": 6,
       "value": "0xFFFF"
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "StringLiteral",
-      "offset": 4866,
+      "offset": 4924,
       "length": 18,
       "value": "\"IOTClientSDK.CommandStorageCtrl\""
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "StringLiteral",
-      "offset": 5421,
+      "offset": 5479,
       "length": 18,
       "value": "\"IOTClientSDK.StorageGetMetaData\""
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "StringLiteral",
-      "offset": 6557,
+      "offset": 6615,
       "length": 13,
       "value": "\"IOTClientSDK.StorageUpload\""
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageControl.swift",
       "kind": "StringLiteral",
-      "offset": 9033,
+      "offset": 9091,
       "length": 15,
       "value": "\"IOTClientSDK.StorageDownload\""
     },

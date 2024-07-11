@@ -21,7 +21,7 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>346</string>
+	<string>347</string>
 	<key>CONAN_CHANNEL</key>
 	<string>develop</string>
 	<key>DTCompiler</key>
