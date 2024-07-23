@@ -145100,33 +145100,6 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<CIOTClientSDK.coco_std_cmd_storage_config_t>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "coco_std_cmd_storage_config_t",
-                        "printedName": "CIOTClientSDK.coco_std_cmd_storage_config_t",
-                        "usr": "c:@SA@coco_std_cmd_storage_config_t"
-                      }
-                    ],
-                    "usr": "s:Sp"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC13getCStructureSpySo29coco_std_cmd_storage_config_taGyF",
-                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC06ConfigD4NodeC13getCStructureSpySo29coco_std_cmd_storage_config_taGyF",
-                "moduleName": "IOTClientSDK",
-                "isOpen": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "getCStructure",
-                "printedName": "getCStructure()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
                     "name": "Optional",
                     "printedName": "Swift.UnsafeMutableRawPointer?",
                     "children": [
@@ -145458,33 +145431,6 @@
                     "accessorKind": "_modify"
                   }
                 ]
-              },
-              {
-                "kind": "Function",
-                "name": "getCStructure",
-                "printedName": "getCStructure()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UnsafeMutablePointer",
-                    "printedName": "Swift.UnsafeMutablePointer<CIOTClientSDK.coco_std_cmd_storage_config_t>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "coco_std_cmd_storage_config_t",
-                        "printedName": "CIOTClientSDK.coco_std_cmd_storage_config_t",
-                        "usr": "c:@SA@coco_std_cmd_storage_config_t"
-                      }
-                    ],
-                    "usr": "s:Sp"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC13getCStructureSpySo29coco_std_cmd_storage_config_taGyF",
-                "mangledName": "$s12IOTClientSDK22CapabilityStorageCofigC011DeconfigureD4NodeC13getCStructureSpySo29coco_std_cmd_storage_config_taGyF",
-                "moduleName": "IOTClientSDK",
-                "isOpen": true,
-                "funcSelfKind": "NonMutating"
               },
               {
                 "kind": "Function",
@@ -202428,14 +202374,14 @@
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageCofig.swift",
       "kind": "StringLiteral",
-      "offset": 3929,
+      "offset": 3606,
       "length": 22,
       "value": "\"IOTClientSDK.DeconfigureStorageNode\""
     },
     {
       "filePath": "\/Users\/hellophant\/Developer\/COCO\/coco\/src\/cococlientsdk-swift\/IOTClientSDK\/Data Models\/Capability\/CapabilityStorageCofig.swift",
       "kind": "StringLiteral",
-      "offset": 5116,
+      "offset": 4470,
       "length": 19,
       "value": "\"IOTClientSDK.CommandStorageCofig\""
     },

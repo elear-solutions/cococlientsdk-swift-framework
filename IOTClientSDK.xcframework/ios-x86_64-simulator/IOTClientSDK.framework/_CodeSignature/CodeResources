@@ -18,7 +18,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		d37eNN3HDBTzkbarNiuouXhkruE=
+		+oH1pWUKwM36GUEGyuIIb824yD0=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		HvUx4Bvwo7drGEle1JX7muqWHA4=
+		XUls8IJqu22Ayn6J8BwPDNBRFxY=
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		UW4OHUre1qO5SWqEPZmZh20kbys=
+		MormGGhXLBYPJvxO+thIv9pQVgI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -87,7 +87,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3txLnnvA92e5e9qbyIEP7GxpqtprM2Ody/iud3i8Gxg=
+			QDZMR8J76fKn5F0ZS112ButkVLNqxVxjkSCQhz4WSzs=
 			</data>
 		</dict>
 		<key>Modules/IOTClientSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -115,7 +115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+G4ju+4LIvXTKsfZULBpotwIEUlasmVY3lePdpQDC6k=
+			E9iqeI9nuWYNpeTVKnfdN8P3wBkbQqUyorTW3uaaGNM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
